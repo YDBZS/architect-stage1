@@ -1,0 +1,103 @@
+{
+  "modules": [
+    {
+      "name": "test",
+      "chnname": "测试1",
+      "entities": [
+        {
+          "title": "用户表",
+          "fields": [
+            {
+              "name": "CREATED_TIME",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "创建时间"
+            },
+            {
+              "name": "UPDATED_TIME",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "更新时间"
+            },
+            {
+              "name": "userid",
+              "type": "Integer",
+              "remark": "唯一主键",
+              "chnname": "用户主键ID",
+              "pk": true,
+              "notNull": true,
+              "autoIncrement": true,
+              "relationNoShow": false
+            }
+          ],
+          "indexs": [],
+          "headers": [
+            {
+              "fieldName": "chnname",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "name",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "type",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "dataType",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "remark",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "pk",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "notNull",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "autoIncrement",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "defaultValue",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "relationNoShow",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "uiHint",
+              "relationNoShow": true
+            }
+          ],
+          "chnname": "users",
+          "remark": "这是一张用户表"
+        }
+      ],
+      "graphCanvas": {
+        "nodes": [
+          {
+            "shape": "table",
+            "title": "用户表",
+            "moduleName": false,
+            "x": 314.796875,
+            "y": 161,
+            "id": "3bfa1a6d"
+          }
+        ],
+        "edges": []
+      },
+      "associations": []
+    }
+  ],
+  "version": "0.0.1",
+  "message": "初次创建",
+  "date": "2021/3/7 15:43:54"
+}
