@@ -17,9 +17,9 @@ spring:
   datasource: # 数据源的相关配置
     type: com.zaxxer.hikari.HikariDataSource # 数据源类型：HikariCP
     driver-class-name: com.mysql.jdbc.Driver # mysql驱动
-    url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect
+    url: jdbc:mysql://localhost:3306/foodie-shop?useUnicode=true&characterEncoding=UTF-8&autoReconnect
     username: root
-    password: root
+    password: 123456
     hikari:
       connection-timeout: 30000  # 等待连接池分配连接的最大时长（毫秒），超过这个时长还没可用的连接则发生SQ
       minimum-idle: 5 # 最小连接数
@@ -35,5 +35,5 @@ spring:
 #
 ############################################################
 mybatis:
-  type-aliases-package: com.imooc.pojo # 所有POJO类所在包路径
+  type-aliases-package: com.imooc.mapper # 所有POJO类所在包路径
   mapper-locations: classpath:mapper/*.xml # mapper映射文件
