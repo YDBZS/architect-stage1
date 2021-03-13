@@ -1,0 +1,7 @@
+2021-03-13 21:47:35 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-13 21:47:35 INFO  DispatcherServlet:547 - Completed initialization in 4 ms
+2021-03-13 21:47:35 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.UserServiceImpl.queryUserForLogin====================
+2021-03-13 21:47:35 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2021-03-13 21:47:36 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2021-03-13 21:47:36 INFO  ServiceLogAspect:55 - ===========执行结束，耗时596毫秒============
+2021-03-13 21:47:36 INFO  CookieUtils:210 - ========== domainName: localhost ==========

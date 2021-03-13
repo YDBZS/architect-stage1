@@ -25,4 +25,14 @@ public interface UserService {
      */
     Users createUser(UsersBO users);
 
+    /**
+     * 检索用户名和密码
+     *
+     * @since 2021/3/13 19:24
+     * @return com.architect.pojo.Users
+     * @param username  用户账号
+     * @param password 用户密码
+     */
+    Users queryUserForLogin(String username,String password);
+
 }
