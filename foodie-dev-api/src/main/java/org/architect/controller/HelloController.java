@@ -2,6 +2,7 @@ package org.architect.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import springfox.documentation.annotations.ApiIgnore;
 
 /**
  * 测试接口
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author 多宝
  * @since 2021/3/7 16:34
  */
+@ApiIgnore
 @RestController
 public class HelloController {
 
@@ -16,6 +18,4 @@ public class HelloController {
     public Object hello() {
         return "Hello World!";
     }
-
-
 }
