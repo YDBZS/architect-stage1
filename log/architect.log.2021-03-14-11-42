@@ -1,0 +1,20 @@
+2021-03-14 11:42:45 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-14 11:42:45 INFO  DispatcherServlet:547 - Completed initialization in 5 ms
+2021-03-14 11:42:45 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-03-14 11:42:45 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2021-03-14 11:42:46 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2021-03-14 11:42:46 INFO  ServiceLogAspect:55 - ===========执行结束，耗时908毫秒============
+2021-03-14 11:42:46 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemImageList====================
+2021-03-14 11:42:46 INFO  ServiceLogAspect:55 - ===========执行结束，耗时23毫秒============
+2021-03-14 11:42:46 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecList====================
+2021-03-14 11:42:46 INFO  ServiceLogAspect:55 - ===========执行结束，耗时84毫秒============
+2021-03-14 11:42:46 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemParamList====================
+2021-03-14 11:42:46 INFO  ServiceLogAspect:55 - ===========执行结束，耗时121毫秒============
+2021-03-14 11:42:48 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-03-14 11:42:48 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 11:42:48 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemImageList====================
+2021-03-14 11:42:48 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-03-14 11:42:48 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecList====================
+2021-03-14 11:42:48 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 11:42:48 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemParamList====================
+2021-03-14 11:42:48 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============

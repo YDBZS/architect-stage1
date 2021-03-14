@@ -1,0 +1,40 @@
+2021-03-14 12:22:07 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 12:22:07 INFO  ServiceLogAspect:55 - ===========执行结束，耗时9毫秒============
+2021-03-14 12:22:07 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 12:22:07 INFO  ServiceLogAspect:55 - ===========执行结束，耗时4毫秒============
+2021-03-14 12:22:07 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 12:22:07 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-03-14 12:22:07 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 12:22:07 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 12:22:07 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 12:22:07 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-03-14 12:22:11 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-03-14 12:22:11 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryCommentCounts====================
+2021-03-14 12:22:11 INFO  ServiceLogAspect:55 - ===========执行结束，耗时4毫秒============
+2021-03-14 12:22:11 INFO  ServiceLogAspect:55 - ===========执行结束，耗时6毫秒============
+2021-03-14 12:22:11 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemImageList====================
+2021-03-14 12:22:11 INFO  ServiceLogAspect:55 - ===========执行结束，耗时15毫秒============
+2021-03-14 12:22:11 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecList====================
+2021-03-14 12:22:11 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 12:22:11 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemParamList====================
+2021-03-14 12:22:11 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 12:22:33 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 12:22:33 INFO  ServiceLogAspect:55 - ===========执行结束，耗时4毫秒============
+2021-03-14 12:22:33 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 12:22:33 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 12:22:33 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 12:22:33 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 12:22:33 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 12:22:33 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 12:22:33 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 12:22:33 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-03-14 12:22:34 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-03-14 12:22:34 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryCommentCounts====================
+2021-03-14 12:22:34 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 12:22:34 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemImageList====================
+2021-03-14 12:22:34 INFO  ServiceLogAspect:55 - ===========执行结束，耗时5毫秒============
+2021-03-14 12:22:34 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-03-14 12:22:34 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecList====================
+2021-03-14 12:22:34 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 12:22:34 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemParamList====================
+2021-03-14 12:22:34 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============

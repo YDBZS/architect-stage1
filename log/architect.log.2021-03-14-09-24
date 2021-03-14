@@ -1,0 +1,11 @@
+2021-03-14 09:24:09 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.queryAllRootLevelCat====================
+2021-03-14 09:24:09 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CarouselServiceImpl.queryAll====================
+2021-03-14 09:24:09 INFO  ServiceLogAspect:55 - ===========执行结束，耗时7毫秒============
+2021-03-14 09:24:09 INFO  ServiceLogAspect:55 - ===========执行结束，耗时32毫秒============
+2021-03-14 09:24:28 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.UserServiceImpl.queryUserForLogin====================
+2021-03-14 09:24:28 INFO  ServiceLogAspect:55 - ===========执行结束，耗时42毫秒============
+2021-03-14 09:24:28 INFO  CookieUtils:210 - ========== domainName: localhost ==========
+2021-03-14 09:24:29 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CarouselServiceImpl.queryAll====================
+2021-03-14 09:24:29 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.queryAllRootLevelCat====================
+2021-03-14 09:24:29 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-03-14 09:24:29 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============

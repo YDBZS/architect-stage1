@@ -1,0 +1,9 @@
+2021-03-14 13:20:31 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-14 13:20:31 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2021-03-14 13:20:31 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.
+2021-03-14 13:20:58 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-03-14 13:20:58 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 7608 (E:\mayuncode\aichitect-stage1\foodie-dev-api\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-03-14 13:20:58 INFO  Application:651 - No active profile set, falling back to default profiles: default
+2021-03-14 13:20:59 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[org.architect]' package. Please check your configuration.
+2021-03-14 13:20:59 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8088 (http)
+2021-03-14 13:20:59 INFO  ServletWebServerApplicationContext:283 - Root WebApplicationContext: initialization completed in 1040 ms

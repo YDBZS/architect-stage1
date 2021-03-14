@@ -1,0 +1,2 @@
+2021-03-14 11:03:00 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 11:03:00 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============

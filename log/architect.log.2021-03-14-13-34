@@ -1,0 +1,9 @@
+2021-03-14 13:34:03 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryPagedComments====================
+2021-03-14 13:34:54 ERROR ServiceLogAspect:51 - ===========执行结束，耗时50789毫秒============
+2021-03-14 13:34:54 WARN  HikariPool:787 - DateSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=1m5s499ms553µs300ns).
+2021-03-14 13:34:54 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-14 13:34:54 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2021-03-14 13:34:54 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.
+2021-03-14 13:34:59 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-03-14 13:34:59 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 12484 (E:\mayuncode\aichitect-stage1\foodie-dev-api\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-03-14 13:34:59 INFO  Application:651 - No active profile set, falling back to default profiles: default

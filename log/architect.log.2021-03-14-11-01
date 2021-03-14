@@ -1,0 +1,6 @@
+2021-03-14 11:01:46 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-03-14 11:01:46 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-03-14 11:01:46 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-03-14 11:01:46 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 11:01:47 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-03-14 11:01:47 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============

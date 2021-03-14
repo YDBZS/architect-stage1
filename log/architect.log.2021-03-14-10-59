@@ -1,0 +1,30 @@
+2021-03-14 10:59:02 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-03-14 10:59:02 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 10:59:02 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-03-14 10:59:02 INFO  ServiceLogAspect:55 - ===========执行结束，耗时5毫秒============
+2021-03-14 10:59:30 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CarouselServiceImpl.queryAll====================
+2021-03-14 10:59:30 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.queryAllRootLevelCat====================
+2021-03-14 10:59:30 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 10:59:30 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-03-14 10:59:30 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-03-14 10:59:30 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 10:59:31 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 10:59:31 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-03-14 10:59:31 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 10:59:31 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 10:59:31 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 10:59:31 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 10:59:31 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 10:59:31 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-03-14 10:59:31 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 10:59:31 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 10:59:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 10:59:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 10:59:33 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-03-14 10:59:33 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 10:59:34 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-03-14 10:59:34 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 10:59:34 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-03-14 10:59:34 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-03-14 10:59:34 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-03-14 10:59:34 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
