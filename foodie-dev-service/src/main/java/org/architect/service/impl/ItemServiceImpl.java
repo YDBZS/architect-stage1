@@ -4,6 +4,7 @@ import com.architect.mapper.*;
 import com.architect.pojo.*;
 import com.architect.pojo.vo.CommentLevelCountVO;
 import com.architect.pojo.vo.ItemCommentVO;
+import com.architect.pojo.vo.SearchItemsVO;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.google.common.collect.Maps;
@@ -120,6 +121,17 @@ public class ItemServiceImpl implements ItemService {
             item.setNickname(DesensitizationUtil.commonDisplay(item.getNickname()));
         });
         return setterPagedGrid(list, page);
+    }
+
+    @Override
+    @Transactional(propagation = Propagation.SUPPORTS)
+    public PagedGridResult searchItems(String keywords, String sort, Integer page, Integer pageSize) {
+        HashMap<String, Object> map = Maps.newHashMap();
+        map.put("keywords", keywords);
+        map.put("sort", sort);
+        PageHelper.startPage(page, pageSize);
+        List<SearchItemsVO> itemsVOList = itemsMapperCustom.searchItems(map);
+        return setterPagedGrid(itemsVOList, page);
     }
 
     private PagedGridResult setterPagedGrid(List<?> list, int page) {

@@ -89,4 +89,28 @@ public class ItemsController {
     }
 
 
+    @ApiOperation(value = "搜索商品列表", httpMethod = "GET")
+    @GetMapping("search")
+    public ReturnResult search(
+            @ApiParam(name = "keywords", value = "关键字", required = true)
+            @RequestParam String keywords,
+            @ApiParam(value = "排序", required = false)
+            @RequestParam String sort,
+            @RequestParam Integer page,
+            @RequestParam Integer pageSize
+    ) {
+        if (StringUtils.isBlank(keywords)) {
+            return ReturnResult.errorMsg("");
+        }
+        if (null == page) {
+            page = 1;
+        }
+        if (null == pageSize) {
+            pageSize = Constant.PAGE_SIZE;
+        }
+
+        return ReturnResult.ok(itemService.searchItems(keywords, sort, page, pageSize));
+    }
+
+
 }

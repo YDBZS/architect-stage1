@@ -34,7 +34,7 @@ public class IndexController {
     @Resource
     private CategoryService categoryService;
 
-    @ApiOperation(value = "查询轮播图", httpMethod = "POST")
+    @ApiOperation(value = "查询轮播图", httpMethod = "GET")
     @GetMapping("/carousel")
     public ReturnResult caroucel() {
         List<Carousel> carousels = carouselService.queryAll(YesOrNo.YES.type);

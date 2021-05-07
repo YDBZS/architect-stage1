@@ -23,4 +23,46 @@
     </if>
   </select>
 
+    <select id="searchItems" parameterType="map" resultType="com.architect.pojo.vo.SearchItemsVO">
+        select i.id          itemId,
+               i.item_name   itemName,
+               i.sell_counts sellCounts,
+               ii.url        imgUrl,
+               tempSpec.priceDiscount price
+        from
+            items i
+        left join
+            items_img ii
+        on
+            i.id = ii.item_id
+        left join
+            (select item_id,
+                    min(price_discount) priceDiscount
+             from items_spec
+             group by item_id) tempSpec
+        on
+            i.id = tempSpec.item_id
+        where
+            ii.is_main = 1
+        <if  test="paramsMap.keywords != null and paramsMap.keywords != ''">
+            and i.item_name like '%${paramsMap.keywords}%'
+        </if>
+        order by
+        <choose>
+            <when test="paramsMap.sort == &quot;c&quot; ">
+                i.sell_counts desc
+            </when>
+            <when test="paramsMap.sort == &quot;p&quot; ">
+                tempSpec.priceDiscount asc
+            </when>
+            <otherwise>
+                i.item_name asc
+            </otherwise>
+        </choose>
+  </select>
+<!--     k : 默认，代表默认排序，根据name-->
+<!--     c : 根据向量排序-->
+<!--     p : 根据价格排序-->
+<!--     @quot;  转义单引号  -->
+
 </mapper>

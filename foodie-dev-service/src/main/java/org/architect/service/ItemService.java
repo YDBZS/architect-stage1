@@ -75,4 +75,20 @@ public interface ItemService {
                                        Integer pageSIze);
 
 
+    /**
+     * 查询商品列表
+     *
+     * @since 2021/5/8 2:45
+     * @return org.architect.util.PagedGridResult
+     * @param keywords 查询关键字
+     * @param sort     排序规则
+     * @param page     第几页
+     * @param pageSize 每页条数
+     */
+    PagedGridResult searchItems(String keywords,
+                                       String sort,
+                                       Integer page,
+                                       Integer pageSize);
+
+
 }

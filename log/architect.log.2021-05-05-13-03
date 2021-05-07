@@ -1,0 +1,10 @@
+2021-05-05 13:03:13 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-05-05 13:03:13 INFO  ServiceLogAspect:55 - ===========执行结束，耗时4毫秒============
+2021-05-05 13:03:13 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-05-05 13:03:13 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-05-05 13:03:13 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-05 13:03:13 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-05-05 13:03:13 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-05-05 13:03:13 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-05-05 13:03:13 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-05 13:03:13 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============

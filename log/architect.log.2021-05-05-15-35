@@ -1,0 +1,10 @@
+2021-05-05 15:35:04 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-05-05 15:35:04 INFO  DispatcherServlet:547 - Completed initialization in 6 ms
+2021-05-05 15:35:04 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CarouselServiceImpl.queryAll====================
+2021-05-05 15:35:04 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.queryAllRootLevelCat====================
+2021-05-05 15:35:04 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2021-05-05 15:35:05 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2021-05-05 15:35:05 INFO  ServiceLogAspect:55 - ===========执行结束，耗时597毫秒============
+2021-05-05 15:35:05 INFO  ServiceLogAspect:55 - ===========执行结束，耗时600毫秒============
+2021-05-05 15:35:05 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-05-05 15:35:05 INFO  ServiceLogAspect:55 - ===========执行结束，耗时9毫秒============
