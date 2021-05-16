@@ -5,6 +5,7 @@ import com.architect.pojo.ItemsImg;
 import com.architect.pojo.ItemsParam;
 import com.architect.pojo.ItemsSpec;
 import com.architect.pojo.vo.ItemInfoVO;
+import com.architect.pojo.vo.ShopcartVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -110,6 +111,45 @@ public class ItemsController {
         }
 
         return ReturnResult.ok(itemService.searchItems(keywords, sort, page, pageSize));
+    }
+
+
+    @ApiOperation(value = "通过分类ID搜索商品列表", httpMethod = "GET")
+    @GetMapping("catItems")
+    public ReturnResult catItems(
+            @ApiParam(name = "catId", value = "商品三级分类ID", required = true)
+            @RequestParam Integer catId,
+            @ApiParam(value = "排序", required = false)
+            @RequestParam String sort,
+            @RequestParam Integer page,
+            @RequestParam Integer pageSize
+    ) {
+        if (null == catId) {
+            return ReturnResult.errorMsg(null);
+        }
+        if (null == page) {
+            page = 1;
+        }
+        if (null == pageSize) {
+            pageSize = Constant.PAGE_SIZE;
+        }
+
+        return ReturnResult.ok(itemService.searchItems(catId, sort, page, pageSize));
+    }
+
+    @ApiOperation(value = "根据商品规格IDS查找最新的商品数据(渲染购物车)", notes = "根据商品规格IDS查找最新的商品数据(渲染购物车)")
+    @GetMapping("refresh")
+    public ReturnResult q(
+            @ApiParam(value = "拼接的商品规格IDS")
+            @RequestParam String itemSpecIds
+    ) {
+        if (StringUtils.isBlank(itemSpecIds)) {
+            return ReturnResult.ok();
+        }
+
+        List<ShopcartVO> list = itemService.queryItemsBySpecIds(itemSpecIds);
+
+        return ReturnResult.ok(list);
     }
 
 

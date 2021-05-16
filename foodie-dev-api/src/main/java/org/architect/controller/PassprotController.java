@@ -96,6 +96,9 @@ public class PassprotController {
         Users setNull = setNull(users);
         CookieUtils.setCookie(request, response, "user", JsonUtils.objectToJson(setNull), true);
 
+        // TODO 生成用户Token，存入redis会话
+        // TODO 同步购物车数据
+
         return ReturnResult.ok(setNull);
     }
 

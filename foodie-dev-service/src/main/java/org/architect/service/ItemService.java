@@ -5,6 +5,7 @@ import com.architect.pojo.ItemsImg;
 import com.architect.pojo.ItemsParam;
 import com.architect.pojo.ItemsSpec;
 import com.architect.pojo.vo.CommentLevelCountVO;
+import com.architect.pojo.vo.ShopcartVO;
 import org.architect.util.PagedGridResult;
 
 import java.util.List;
@@ -90,5 +91,27 @@ public interface ItemService {
                                        Integer page,
                                        Integer pageSize);
 
+
+    /**
+     * 根据分类ID查询商品列表
+     *
+     * @since 2021/5/16 10:49
+     * @return org.architect.util.PagedGridResult
+     * @param catId  商品三级分类ID
+     */
+    PagedGridResult searchItems(Integer catId,
+                                       String sort,
+                                       Integer page,
+                                       Integer pageSize);
+
+
+    /**
+     * 根据商品规格IDS查询最新的购物车中商品数据（用于刷新渲染购物车中的商品数据）
+     *
+     * @since 2021/5/16 14:04
+     * @return java.util.List<com.architect.pojo.vo.ShopcartVO>
+     * @param specIds   商品规格ID
+     */
+    List<ShopcartVO> queryItemsBySpecIds(String specIds);
 
 }

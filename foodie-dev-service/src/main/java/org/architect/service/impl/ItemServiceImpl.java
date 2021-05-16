@@ -5,8 +5,10 @@ import com.architect.pojo.*;
 import com.architect.pojo.vo.CommentLevelCountVO;
 import com.architect.pojo.vo.ItemCommentVO;
 import com.architect.pojo.vo.SearchItemsVO;
+import com.architect.pojo.vo.ShopcartVO;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import org.architect.enums.CommentLevel;
 import org.architect.service.ItemService;
@@ -132,6 +134,25 @@ public class ItemServiceImpl implements ItemService {
         PageHelper.startPage(page, pageSize);
         List<SearchItemsVO> itemsVOList = itemsMapperCustom.searchItems(map);
         return setterPagedGrid(itemsVOList, page);
+    }
+
+    @Override
+    @Transactional(propagation = Propagation.SUPPORTS)
+    public PagedGridResult searchItems(Integer catId, String sort, Integer page, Integer pageSize) {
+        HashMap<String, Object> map = Maps.newHashMap();
+        map.put("catId", catId);
+        map.put("sort", sort);
+        PageHelper.startPage(page, pageSize);
+        List<SearchItemsVO> itemsVOList = itemsMapperCustom.searchItemsByThirdCat(map);
+        return setterPagedGrid(itemsVOList, page);
+    }
+
+    @Override
+    @Transactional(propagation = Propagation.SUPPORTS)
+    public List<ShopcartVO> queryItemsBySpecIds(String specIds) {
+        String[] ids = specIds.split(",");
+        List<String> specIdsList = Lists.newArrayList(ids);
+        return itemsMapperCustom.queryItemBySpecIds(specIdsList);
     }
 
     private PagedGridResult setterPagedGrid(List<?> list, int page) {
