@@ -1,0 +1,141 @@
+2021-05-23 19:48:00 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:00 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:00 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:00
+2021-05-23 19:48:01 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:01 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:01 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:01
+2021-05-23 19:48:02 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:02 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:02 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:02
+2021-05-23 19:48:03 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:03 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:03 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:03
+2021-05-23 19:48:04 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:04 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:04 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:04
+2021-05-23 19:48:05 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:05 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:05 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:05
+2021-05-23 19:48:06 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:06 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:06 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:06
+2021-05-23 19:48:07 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:07 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:07 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:07
+2021-05-23 19:48:08 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:08 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:08 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:08
+2021-05-23 19:48:09 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:09 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:09 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:09
+2021-05-23 19:48:10 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:10 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:10 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:10
+2021-05-23 19:48:11 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:11 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:11 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:11
+2021-05-23 19:48:12 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:12 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:12 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:12
+2021-05-23 19:48:13 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:13 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:13 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:13
+2021-05-23 19:48:14 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:14 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:14 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:14
+2021-05-23 19:48:15 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:15 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:15 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:15
+2021-05-23 19:48:16 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:16 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:16 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:16
+2021-05-23 19:48:17 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:17 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:17 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:17
+2021-05-23 19:48:18 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:18 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:18 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:18
+2021-05-23 19:48:19 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:19 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:19 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:19
+2021-05-23 19:48:20 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:20 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:20 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:20
+2021-05-23 19:48:21 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:21 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:21 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:21
+2021-05-23 19:48:22 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:22 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:22 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:22
+2021-05-23 19:48:23 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:23 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:23 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:23
+2021-05-23 19:48:24 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:24 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:24 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:24
+2021-05-23 19:48:25 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:25 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:25 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:25
+2021-05-23 19:48:26 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:26 INFO  ServiceLogAspect:55 - ===========执行结束，耗时12毫秒============
+2021-05-23 19:48:26 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:26
+2021-05-23 19:48:27 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:27 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:27 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:27
+2021-05-23 19:48:28 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:28 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:28 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:28
+2021-05-23 19:48:29 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:29 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:29 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:29
+2021-05-23 19:48:30 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:30 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:30 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:30
+2021-05-23 19:48:31 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:31 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:31 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:31
+2021-05-23 19:48:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:32 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:32
+2021-05-23 19:48:33 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:33 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:33 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:33
+2021-05-23 19:48:34 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:34 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 19:48:34 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:34
+2021-05-23 19:48:35 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:35 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:35 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:35
+2021-05-23 19:48:36 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:36 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:36 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:36
+2021-05-23 19:48:37 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:37 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:37 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:37
+2021-05-23 19:48:38 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-05-23 19:48:38 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 19:48:38 INFO  OrderJob:28 - 执行定时任务，当前的时间是：2021-05-23 19:48:38
+2021-05-23 19:48:38 INFO  ThreadPoolTaskScheduler:218 - Shutting down ExecutorService 'taskScheduler'
+2021-05-23 19:48:38 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-23 19:48:38 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2021-05-23 19:48:38 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.
+2021-05-23 19:48:42 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-05-23 19:48:42 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 1452 (E:\mayuncode\aichitect-stage1\foodie-dev-api\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-05-23 19:48:42 INFO  Application:651 - No active profile set, falling back to default profiles: default
+2021-05-23 19:48:43 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[org.architect]' package. Please check your configuration.
+2021-05-23 19:48:43 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8088 (http)
+2021-05-23 19:48:44 INFO  ServletWebServerApplicationContext:283 - Root WebApplicationContext: initialization completed in 1402 ms
+2021-05-23 19:48:45 INFO  WebMvcPropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-05-23 19:48:45 INFO  ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-23 19:48:45 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-05-23 19:48:45 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-05-23 19:48:45 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-05-23 19:48:45 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2021-05-23 19:48:45 INFO  ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'taskScheduler'
+2021-05-23 19:48:45 INFO  DocumentationPluginsBootstrapper:93 - Documentation plugins bootstrapped
+2021-05-23 19:48:45 INFO  DocumentationPluginsBootstrapper:79 - Found 1 custom documentation plugin(s)
+2021-05-23 19:48:45 INFO  ApiListingReferenceScanner:44 - Scanning for api listing references
+2021-05-23 19:48:45 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: listUsingPOST_1
+2021-05-23 19:48:45 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_1
+2021-05-23 19:48:45 INFO  TomcatWebServer:203 - Tomcat started on port(s): 8088 (http) with context path ''
+2021-05-23 19:48:45 INFO  Application:61 - Started Application in 3.576 seconds (JVM running for 4.347)

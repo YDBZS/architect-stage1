@@ -1,0 +1,4 @@
+2021-05-22 13:36:56 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.AddressServiceImpl.addNewUserAddress====================
+2021-05-22 13:36:56 INFO  ServiceLogAspect:55 - ===========执行结束，耗时76毫秒============
+2021-05-22 13:36:57 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.AddressServiceImpl.queryAll====================
+2021-05-22 13:36:57 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============

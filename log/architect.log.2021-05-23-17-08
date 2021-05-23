@@ -1,0 +1,114 @@
+2021-05-23 17:08:01 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemsBySpecIds====================
+2021-05-23 17:08:01 INFO  ServiceLogAspect:55 - ===========执行结束，耗时9毫秒============
+2021-05-23 17:08:07 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.AddressServiceImpl.queryAll====================
+2021-05-23 17:08:07 INFO  ServiceLogAspect:55 - ===========执行结束，耗时6毫秒============
+2021-05-23 17:08:27 INFO  OrdersController:53 - SubmitOrderBo(userId=1908017YR51G1XWH, itemSpecIds=bingan-1004-spec-1,cake-1006-spec-1, addressId=210523B91CD72RAW, payMethod=1, leftMsg=)
+2021-05-23 17:08:27 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.createOrder====================
+2021-05-23 17:08:27 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.AddressServiceImpl.queryUserAddress====================
+2021-05-23 17:08:27 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 17:08:27 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecById====================
+2021-05-23 17:08:27 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:27 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-05-23 17:08:27 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:27 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemMainImgById====================
+2021-05-23 17:08:27 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 17:08:27 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.decreaseItemSpecStock====================
+2021-05-23 17:08:27 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 17:08:27 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecById====================
+2021-05-23 17:08:27 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:27 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-05-23 17:08:27 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:27 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemMainImgById====================
+2021-05-23 17:08:27 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:27 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.decreaseItemSpecStock====================
+2021-05-23 17:08:27 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:27 INFO  ServiceLogAspect:55 - ===========执行结束，耗时57毫秒============
+2021-05-23 17:08:27 INFO  CookieUtils:210 - ========== domainName: localhost ==========
+2021-05-23 17:08:30 INFO  OrdersController:53 - SubmitOrderBo(userId=1908017YR51G1XWH, itemSpecIds=bingan-1004-spec-1,cake-1006-spec-1, addressId=210523B91CD72RAW, payMethod=1, leftMsg=)
+2021-05-23 17:08:30 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.createOrder====================
+2021-05-23 17:08:30 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.AddressServiceImpl.queryUserAddress====================
+2021-05-23 17:08:30 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 17:08:30 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecById====================
+2021-05-23 17:08:30 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:30 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-05-23 17:08:30 INFO  ServiceLogAspect:55 - ===========执行结束，耗时0毫秒============
+2021-05-23 17:08:30 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemMainImgById====================
+2021-05-23 17:08:30 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:30 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.decreaseItemSpecStock====================
+2021-05-23 17:08:30 INFO  ServiceLogAspect:55 - ===========执行结束，耗时5毫秒============
+2021-05-23 17:08:30 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecById====================
+2021-05-23 17:08:30 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:30 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-05-23 17:08:30 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:30 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemMainImgById====================
+2021-05-23 17:08:30 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:30 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.decreaseItemSpecStock====================
+2021-05-23 17:08:30 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 17:08:30 INFO  ServiceLogAspect:55 - ===========执行结束，耗时53毫秒============
+2021-05-23 17:08:30 INFO  CookieUtils:210 - ========== domainName: localhost ==========
+2021-05-23 17:08:32 INFO  OrdersController:53 - SubmitOrderBo(userId=1908017YR51G1XWH, itemSpecIds=bingan-1004-spec-1,cake-1006-spec-1, addressId=210523B91CD72RAW, payMethod=1, leftMsg=)
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.createOrder====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.AddressServiceImpl.queryUserAddress====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecById====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemMainImgById====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.decreaseItemSpecStock====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时10毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecById====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemMainImgById====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.decreaseItemSpecStock====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时43毫秒============
+2021-05-23 17:08:32 INFO  CookieUtils:210 - ========== domainName: localhost ==========
+2021-05-23 17:08:32 INFO  OrdersController:53 - SubmitOrderBo(userId=1908017YR51G1XWH, itemSpecIds=bingan-1004-spec-1,cake-1006-spec-1, addressId=210523B91CD72RAW, payMethod=1, leftMsg=)
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.createOrder====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.AddressServiceImpl.queryUserAddress====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecById====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemMainImgById====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.decreaseItemSpecStock====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecById====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemMainImgById====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.decreaseItemSpecStock====================
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时21毫秒============
+2021-05-23 17:08:32 INFO  CookieUtils:210 - ========== domainName: localhost ==========
+2021-05-23 17:08:56 INFO  OrdersController:53 - SubmitOrderBo(userId=1908017YR51G1XWH, itemSpecIds=bingan-1004-spec-1,cake-1006-spec-1, addressId=210523B91CD72RAW, payMethod=1, leftMsg=)
+2021-05-23 17:08:56 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.createOrder====================
+2021-05-23 17:08:56 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.AddressServiceImpl.queryUserAddress====================
+2021-05-23 17:08:56 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:56 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecById====================
+2021-05-23 17:08:56 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:56 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-05-23 17:08:56 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:56 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemMainImgById====================
+2021-05-23 17:08:56 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:56 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.decreaseItemSpecStock====================
+2021-05-23 17:08:56 INFO  ServiceLogAspect:55 - ===========执行结束，耗时13毫秒============
+2021-05-23 17:08:56 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecById====================
+2021-05-23 17:08:56 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 17:08:56 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-05-23 17:08:56 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:56 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemMainImgById====================
+2021-05-23 17:08:56 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-05-23 17:08:56 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.decreaseItemSpecStock====================
+2021-05-23 17:08:56 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 17:08:56 INFO  ServiceLogAspect:55 - ===========执行结束，耗时42毫秒============
+2021-05-23 17:08:56 INFO  CookieUtils:210 - ========== domainName: localhost ==========

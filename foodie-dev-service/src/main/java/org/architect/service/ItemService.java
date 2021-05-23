@@ -114,4 +114,30 @@ public interface ItemService {
      */
     List<ShopcartVO> queryItemsBySpecIds(String specIds);
 
+    /**
+     * 根据商品规格ID查询具体的商品规格
+     *
+     * @since 2021/5/23 15:03
+     * @return com.architect.pojo.ItemsSpec
+     * @param specId    商品规格ID
+     */
+    ItemsSpec queryItemSpecById(String specId);
+
+    /**
+     * 根据商品ID获取商品图片主图的URL
+     *
+     * @since 2021/5/23 15:12
+     * @return java.lang.String
+     * @param itemId    商品ID
+     */
+    String queryItemMainImgById(String itemId);
+
+    /**
+     * 减少库存
+     *
+     * @since 2021/5/23 15:31
+     * @param specId    商品规格ID
+     * @param buyCounts 商品购买数量
+     */
+    void decreaseItemSpecStock(String specId,int buyCounts);
 }

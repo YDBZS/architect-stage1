@@ -1,0 +1,14 @@
+2021-05-23 18:40:37 INFO  OrdersController:53 - SubmitOrderBo(userId=1908017YR51G1XWH, itemSpecIds=4, addressId=210523B91CD72RAW, payMethod=2, leftMsg=)
+2021-05-23 18:40:37 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.createOrder====================
+2021-05-23 18:40:37 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.AddressServiceImpl.queryUserAddress====================
+2021-05-23 18:40:37 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 18:40:37 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecById====================
+2021-05-23 18:40:37 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 18:40:37 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-05-23 18:40:37 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 18:40:37 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemMainImgById====================
+2021-05-23 18:40:37 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-05-23 18:40:37 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.decreaseItemSpecStock====================
+2021-05-23 18:40:37 INFO  ServiceLogAspect:55 - ===========执行结束，耗时6毫秒============
+2021-05-23 18:40:37 INFO  ServiceLogAspect:55 - ===========执行结束，耗时37毫秒============
+2021-05-23 18:40:37 INFO  CookieUtils:210 - ========== domainName: localhost ==========

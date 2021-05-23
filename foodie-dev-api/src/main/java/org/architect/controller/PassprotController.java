@@ -109,7 +109,7 @@ public class PassprotController {
      * @return com.architect.pojo.Users
      * @since 2021/3/13 19:56
      */
-    private Users setNull(Users users) {
+    public Users setNull(Users users) {
         users.setPassword(null);
         users.setMobile(null);
         users.setEmail(null);

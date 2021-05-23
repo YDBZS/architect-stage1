@@ -11,6 +11,7 @@ import com.github.pagehelper.PageInfo;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import org.architect.enums.CommentLevel;
+import org.architect.enums.YesOrNo;
 import org.architect.service.ItemService;
 import org.architect.util.DesensitizationUtil;
 import org.architect.util.PagedGridResult;
@@ -153,6 +154,40 @@ public class ItemServiceImpl implements ItemService {
         String[] ids = specIds.split(",");
         List<String> specIdsList = Lists.newArrayList(ids);
         return itemsMapperCustom.queryItemBySpecIds(specIdsList);
+    }
+
+    @Override
+    @Transactional(propagation = Propagation.SUPPORTS)
+    public ItemsSpec queryItemSpecById(String specId) {
+        return itemsSpecMapper.selectByPrimaryKey(specId);
+    }
+
+    @Override
+    @Transactional(propagation = Propagation.SUPPORTS)
+    public String queryItemMainImgById(String itemId) {
+        ItemsImg itemsImg = new ItemsImg();
+        itemsImg.setItemId(itemId);
+        itemsImg.setIsMain(YesOrNo.YES.type);
+        ItemsImg img = itemsImgMapper.selectOne(itemsImg);
+        return null != img ? img.getUrl() : "";
+    }
+
+    @Override
+    @Transactional(propagation = Propagation.REQUIRED)
+    public void decreaseItemSpecStock(String specId, int buyCounts) {
+        // 减库存：商品数据超卖解决
+        // synchronized 不推荐使用，集群下无用，性能低下
+        // 锁数据库：不推荐，导致数据库性能低下
+        // 集群下可以使用分布式锁   zookeeper redis
+
+        // 1 查询库存
+
+        // 2、判断库存，是否能减少到零以下
+
+        int result = itemsMapperCustom.decreaseItemSpecStock(specId, buyCounts);
+        if (result != 1) {
+            throw new RuntimeException("订单创建失败，原因：库存不足！");
+        }
     }
 
     private PagedGridResult setterPagedGrid(List<?> list, int page) {

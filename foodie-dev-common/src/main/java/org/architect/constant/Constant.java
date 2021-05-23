@@ -13,4 +13,23 @@ public interface Constant {
     Integer COMMENT_PAGE_SIZE = 10;
 
     Integer PAGE_SIZE = 20;
+
+    Integer STATUS_OK = 200;
+
+    String FOODIE_SHOPCART = "shopcart";
+
+    String INTERFACE_METHOD_POST = "POST";
+
+    String INTERFACE_METHOD_GET = "GET";
+
+    // 微信支付成功 -> 通知支付中心 -> 天天吃货平台
+    //                           |->  回调通知的URL
+    String PAY_RETURN_URL = "http://localhost:8088/orders/notifyMerchantOrderPaid";
+
+    // 支付中心调用地址
+    String PAYMENTURL = "https://payment.t.mukewang.com/foodie-payment/payment/createMerchantOrder";
+
+    Boolean FALSE = false;
+
+    Boolean TRUE = true;
 }

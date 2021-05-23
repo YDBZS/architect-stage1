@@ -1,0 +1,4 @@
+2021-05-23 20:42:23 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.AddressServiceImpl.queryAll====================
+2021-05-23 20:42:23 INFO  ServiceLogAspect:55 - ===========执行结束，耗时22毫秒============
+2021-05-23 20:42:25 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.CenterUserServiceImpl.queryUserInfo====================
+2021-05-23 20:42:25 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
