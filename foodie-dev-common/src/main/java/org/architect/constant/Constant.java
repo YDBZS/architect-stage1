@@ -1,5 +1,7 @@
 package org.architect.constant;
 
+import java.io.File;
+
 /**
  * 常量
  *
@@ -32,4 +34,15 @@ public interface Constant {
     Boolean FALSE = false;
 
     Boolean TRUE = true;
+
+    // 用户头像上传的位置
+    // File.separator   是适配不同操作系统的文件夹分隔符号
+    String IMAGE_USER_FACE_LOCATION = "E:"
+            + File.separator +
+            "mayuncode"
+            + File.separator +
+            "aichitect-stage1"
+            + File.separator +
+            "userface";
+
 }

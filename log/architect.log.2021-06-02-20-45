@@ -1,0 +1,6 @@
+2021-06-02 20:45:57 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-06-02 20:45:58 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 7292 (E:\mayuncode\aichitect-stage1\foodie-dev-api\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-06-02 20:45:58 INFO  Application:651 - No active profile set, falling back to default profiles: default
+2021-06-02 20:45:59 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[org.architect]' package. Please check your configuration.
+2021-06-02 20:45:59 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8088 (http)
+2021-06-02 20:45:59 INFO  ServletWebServerApplicationContext:283 - Root WebApplicationContext: initialization completed in 1633 ms

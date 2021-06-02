@@ -1,0 +1,2 @@
+2021-06-02 21:37:02 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.CenterUserServiceImpl.queryUserInfo====================
+2021-06-02 21:37:02 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============

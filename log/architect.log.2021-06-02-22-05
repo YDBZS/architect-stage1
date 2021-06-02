@@ -1,0 +1,6 @@
+2021-06-02 22:05:07 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.queryAllRootLevelCat====================
+2021-06-02 22:05:07 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CarouselServiceImpl.queryAll====================
+2021-06-02 22:05:07 INFO  ServiceLogAspect:55 - ===========执行结束，耗时28毫秒============
+2021-06-02 22:05:07 INFO  ServiceLogAspect:55 - ===========执行结束，耗时28毫秒============
+2021-06-02 22:05:07 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-06-02 22:05:07 INFO  ServiceLogAspect:55 - ===========执行结束，耗时8毫秒============
