@@ -1,0 +1,9 @@
+2021-06-02 23:00:00 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2021-06-02 23:00:00 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2021-06-02 23:00:00 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-06-02 23:00:00 INFO  ServiceLogAspect:55 - ===========执行结束，耗时65毫秒============
+2021-06-02 23:00:00 INFO  OrderJob:44 - 执行定时任务，当前的时间是：2021-06-02 23:00:00
+2021-06-02 23:00:34 INFO  ThreadPoolTaskScheduler:218 - Shutting down ExecutorService 'taskScheduler'
+2021-06-02 23:00:34 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-02 23:00:34 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2021-06-02 23:00:34 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.

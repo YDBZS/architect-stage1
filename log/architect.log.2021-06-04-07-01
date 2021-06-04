@@ -1,0 +1,34 @@
+2021-06-04 07:01:09 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-06-04 07:01:09 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 14136 (E:\mayuncode\aichitect-stage1\foodie-dev-api\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-06-04 07:01:09 INFO  Application:651 - No active profile set, falling back to default profiles: default
+2021-06-04 07:01:10 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[org.architect]' package. Please check your configuration.
+2021-06-04 07:01:10 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8088 (http)
+2021-06-04 07:01:10 INFO  ServletWebServerApplicationContext:283 - Root WebApplicationContext: initialization completed in 1371 ms
+2021-06-04 07:01:11 WARN  AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'checkUserOrderUtil' defined in file [E:\mayuncode\aichitect-stage1\foodie-dev-api\target\classes\org\architect\util\CheckUserOrderUtil.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: @Resource annotation is not supported on static fields
+2021-06-04 07:01:11 ERROR SpringApplication:826 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'checkUserOrderUtil' defined in file [E:\mayuncode\aichitect-stage1\foodie-dev-api\target\classes\org\architect\util\CheckUserOrderUtil.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: @Resource annotation is not supported on static fields
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.architect.Application.main(Application.java:24)
+Caused by: java.lang.IllegalStateException: @Resource annotation is not supported on static fields
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.lambda$buildResourceMetadata$0(CommonAnnotationBeanPostProcessor.java:381)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:668)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1093)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:568)
+	... 15 more

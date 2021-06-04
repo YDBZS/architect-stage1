@@ -1,0 +1,108 @@
+2021-06-04 06:00:00 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
+2021-06-04 06:00:00 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-06-04 06:00:00 INFO  OrderJob:44 - 执行定时任务，当前的时间是：2021-06-04 06:00:00
+2021-06-04 06:24:32 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-06-04 06:24:32 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 14820 (E:\mayuncode\aichitect-stage1\foodie-dev-api\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-06-04 06:24:32 INFO  Application:651 - No active profile set, falling back to default profiles: default
+2021-06-04 06:24:33 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[org.architect]' package. Please check your configuration.
+2021-06-04 06:24:33 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8088 (http)
+2021-06-04 06:24:33 INFO  ServletWebServerApplicationContext:283 - Root WebApplicationContext: initialization completed in 1326 ms
+2021-06-04 06:24:35 INFO  WebMvcPropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-06-04 06:24:35 INFO  ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-04 06:24:35 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-06-04 06:24:35 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-06-04 06:24:35 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-06-04 06:24:35 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2021-06-04 06:24:35 INFO  ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'taskScheduler'
+2021-06-04 06:24:35 INFO  DocumentationPluginsBootstrapper:93 - Documentation plugins bootstrapped
+2021-06-04 06:24:35 INFO  DocumentationPluginsBootstrapper:79 - Found 1 custom documentation plugin(s)
+2021-06-04 06:24:35 INFO  ApiListingReferenceScanner:44 - Scanning for api listing references
+2021-06-04 06:24:35 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingPOST_1
+2021-06-04 06:24:35 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: listUsingPOST_1
+2021-06-04 06:24:35 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_1
+2021-06-04 06:24:35 ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8088 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8088 or configure this application to listen on another port.
+
+2021-06-04 06:24:35 INFO  ThreadPoolTaskScheduler:218 - Shutting down ExecutorService 'taskScheduler'
+2021-06-04 06:24:35 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-04 06:24:54 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-06-04 06:24:54 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 14196 (E:\mayuncode\aichitect-stage1\foodie-dev-api\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-06-04 06:24:54 INFO  Application:651 - No active profile set, falling back to default profiles: default
+2021-06-04 06:24:55 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[org.architect]' package. Please check your configuration.
+2021-06-04 06:24:55 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8088 (http)
+2021-06-04 06:24:55 INFO  ServletWebServerApplicationContext:283 - Root WebApplicationContext: initialization completed in 1327 ms
+2021-06-04 06:24:57 INFO  WebMvcPropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-06-04 06:24:57 INFO  ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-04 06:24:57 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-06-04 06:24:57 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-06-04 06:24:57 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-06-04 06:24:57 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2021-06-04 06:24:57 INFO  ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'taskScheduler'
+2021-06-04 06:24:57 INFO  DocumentationPluginsBootstrapper:93 - Documentation plugins bootstrapped
+2021-06-04 06:24:57 INFO  DocumentationPluginsBootstrapper:79 - Found 1 custom documentation plugin(s)
+2021-06-04 06:24:57 INFO  ApiListingReferenceScanner:44 - Scanning for api listing references
+2021-06-04 06:24:57 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingPOST_1
+2021-06-04 06:24:57 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: listUsingPOST_1
+2021-06-04 06:24:57 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_1
+2021-06-04 06:24:57 ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8088 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8088 or configure this application to listen on another port.
+
+2021-06-04 06:24:57 INFO  ThreadPoolTaskScheduler:218 - Shutting down ExecutorService 'taskScheduler'
+2021-06-04 06:24:57 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-04 06:27:36 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-06-04 06:27:36 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 9996 (E:\mayuncode\aichitect-stage1\foodie-dev-api\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-06-04 06:27:36 INFO  Application:651 - No active profile set, falling back to default profiles: default
+2021-06-04 06:27:36 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[org.architect]' package. Please check your configuration.
+2021-06-04 06:27:37 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8088 (http)
+2021-06-04 06:27:37 INFO  ServletWebServerApplicationContext:283 - Root WebApplicationContext: initialization completed in 1320 ms
+2021-06-04 06:27:38 INFO  WebMvcPropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-06-04 06:27:38 INFO  ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-04 06:27:38 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-06-04 06:27:38 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-06-04 06:27:38 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-06-04 06:27:38 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2021-06-04 06:27:38 INFO  ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'taskScheduler'
+2021-06-04 06:27:38 INFO  DocumentationPluginsBootstrapper:93 - Documentation plugins bootstrapped
+2021-06-04 06:27:38 INFO  DocumentationPluginsBootstrapper:79 - Found 1 custom documentation plugin(s)
+2021-06-04 06:27:38 INFO  ApiListingReferenceScanner:44 - Scanning for api listing references
+2021-06-04 06:27:39 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingPOST_1
+2021-06-04 06:27:39 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: listUsingPOST_1
+2021-06-04 06:27:39 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_1
+2021-06-04 06:27:39 ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8088 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8088 or configure this application to listen on another port.
+
+2021-06-04 06:27:39 INFO  ThreadPoolTaskScheduler:218 - Shutting down ExecutorService 'taskScheduler'
+2021-06-04 06:27:39 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
