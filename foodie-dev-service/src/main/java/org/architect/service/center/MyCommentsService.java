@@ -2,6 +2,7 @@ package org.architect.service.center;
 
 import com.architect.pojo.OrderItems;
 import com.architect.pojo.bo.OrderItemsCommentBO;
+import org.architect.util.PagedGridResult;
 
 import java.util.List;
 
@@ -33,5 +34,17 @@ public interface MyCommentsService {
      * @since 2021/6/4 7:33
      */
     void saveComments(String orderId, String userId, List<OrderItemsCommentBO> commentList);
+
+    /**
+     * 分页查询我的评价
+     *
+     * @param userId    用户ID
+     * @param page      当前页
+     * @param pageSize  每页条数
+     * @return org.architect.util.PagedGridResult
+     * @author 多宝
+     * @since 2021/6/5 17:58
+     */
+    PagedGridResult queryMyComments(String userId,Integer page,Integer pageSize);
 
 }

@@ -7,10 +7,12 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 import org.architect.constant.Constant;
 import org.architect.enums.YesOrNo;
 import org.architect.service.center.MyCommentsService;
 import org.architect.util.CheckUserOrderUtil;
+import org.architect.util.PagedGridResult;
 import org.architect.util.ReturnResult;
 import org.springframework.http.HttpStatus;
 import org.springframework.util.CollectionUtils;
@@ -82,6 +84,28 @@ public class MyCommentsController {
 
         myCommentsService.saveComments(orderId, userId, commentList);
         return ReturnResult.ok();
+    }
+
+    @PostMapping("/query")
+    @ApiOperation(value = "查询我的评价", httpMethod = Constant.INTERFACE_METHOD_POST)
+    public ReturnResult query(
+            @ApiParam(value = "用户id", required = true)
+            @RequestParam String userId,
+            @RequestParam Integer page,
+            @RequestParam Integer pageSize
+    ) {
+        if (StringUtils.isBlank(userId)) {
+            return ReturnResult.errorMsg(null);
+        }
+        if (page == null) {
+            page = 1;
+        }
+
+        if (pageSize == null) {
+            pageSize = Constant.COMMENT_PAGE_SIZE;
+        }
+        PagedGridResult gridResult = myCommentsService.queryMyComments(userId, page, pageSize);
+        return ReturnResult.ok(gridResult);
     }
 
 

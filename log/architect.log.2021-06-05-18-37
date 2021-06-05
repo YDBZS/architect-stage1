@@ -1,0 +1,10 @@
+2021-06-05 18:37:24 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyOrdersServiceImpl.queryMyOrders====================
+2021-06-05 18:37:24 INFO  ServiceLogAspect:55 - ===========执行结束，耗时13毫秒============
+2021-06-05 18:37:37 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyOrdersServiceImpl.queryMyOrder====================
+2021-06-05 18:37:37 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-06-05 18:37:37 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyCommentsServiceImpl.queryPendingComments====================
+2021-06-05 18:37:37 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-06-05 18:37:59 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyOrdersServiceImpl.queryMyOrder====================
+2021-06-05 18:37:59 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-06-05 18:37:59 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyCommentsServiceImpl.saveComments====================
+2021-06-05 18:37:59 INFO  ServiceLogAspect:55 - ===========执行结束，耗时52毫秒============

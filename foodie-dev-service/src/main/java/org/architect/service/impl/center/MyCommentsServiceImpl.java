@@ -8,8 +8,12 @@ import com.architect.pojo.OrderItems;
 import com.architect.pojo.OrderStatus;
 import com.architect.pojo.Orders;
 import com.architect.pojo.bo.OrderItemsCommentBO;
+import com.architect.pojo.vo.MyCommentVO;
+import com.architect.util.PageUtil;
+import com.github.pagehelper.PageHelper;
 import org.architect.enums.YesOrNo;
 import org.architect.service.center.MyCommentsService;
+import org.architect.util.PagedGridResult;
 import org.n3r.idworker.Sid;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
@@ -71,5 +75,15 @@ public class MyCommentsServiceImpl implements MyCommentsService {
         orderStatus.setOrderId(orderId);
         orderStatus.setCommentTime(new Date());
         orderStatusMapper.updateByPrimaryKeySelective(orderStatus);
+    }
+
+    @Override
+    @Transactional(propagation = Propagation.SUPPORTS, rollbackFor = Exception.class)
+    public PagedGridResult queryMyComments(String userId, Integer page, Integer pageSize) {
+        Map<String, Object> map = new HashMap<>(1);
+        map.put("userId", userId);
+        PageHelper.startPage(page, pageSize);
+        List<MyCommentVO> list = itemsCommentsMapperCustom.queryMyComments(map);
+        return PageUtil.setterPagedGrid(list, page);
     }
 }

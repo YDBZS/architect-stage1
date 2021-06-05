@@ -1,5 +1,6 @@
 package org.architect.controller.center;
 
+import com.architect.pojo.vo.OrderStatusCountsVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -93,7 +94,6 @@ public class MyOrdersController {
     }
 
 
-
     @PostMapping("/delete")
     @ApiOperation(value = "用户删除订单", httpMethod = Constant.INTERFACE_METHOD_POST)
     public ReturnResult delete(
@@ -111,6 +111,45 @@ public class MyOrdersController {
         }
 
         return ReturnResult.ok();
+    }
+
+
+    @PostMapping("/statusCounts")
+    @ApiOperation(value = "获取订单状态数概况", httpMethod = Constant.INTERFACE_METHOD_POST)
+    public ReturnResult statusCounts(
+            @ApiParam(name = "userId", value = "用户id", required = true)
+            @RequestParam String userId
+    ) {
+        if (StringUtils.isBlank(userId)) {
+            return ReturnResult.errorMsg("用户ID不能为空");
+        }
+        OrderStatusCountsVO counts = myOrdersService.getOrderStatusCounts(userId);
+
+        return ReturnResult.ok(counts);
+    }
+
+    @PostMapping("/trend")
+    @ApiOperation(value = "查询订单动向", httpMethod = Constant.INTERFACE_METHOD_POST)
+    public ReturnResult trend(
+            @ApiParam(name = "userId", value = "用户id", required = true)
+            @RequestParam String userId,
+            @RequestParam Integer page,
+            @RequestParam Integer pageSize
+    ) {
+        if (StringUtils.isBlank(userId)) {
+            return ReturnResult.errorMsg("用户ID不能为空");
+        }
+
+        if (page == null) {
+            page = 1;
+        }
+
+        if (pageSize == null) {
+            pageSize = Constant.COMMENT_PAGE_SIZE;
+        }
+        PagedGridResult ordersTrend = myOrdersService.getOrdersTrend(userId, page, pageSize);
+
+        return ReturnResult.ok(ordersTrend);
     }
 
 

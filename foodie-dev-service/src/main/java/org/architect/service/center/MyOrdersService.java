@@ -1,6 +1,7 @@
 package org.architect.service.center;
 
 import com.architect.pojo.Orders;
+import com.architect.pojo.vo.OrderStatusCountsVO;
 import org.architect.util.PagedGridResult;
 
 /**
@@ -68,6 +69,31 @@ public interface MyOrdersService {
      * @since 2021/6/4 6:06
      */
     Boolean deleteOrder(String userId, String orderId);
+
+    /**
+     * 根据订单状态查询用户订单数
+     *
+     * @param userId    用户ID
+     * @return java.lang.Integer
+     * @author 多宝
+     * @since 2021/6/5 19:02
+     */
+    OrderStatusCountsVO getOrderStatusCounts(String userId);
+
+    /**
+     * 查询我的订单动向
+     *
+     * @param userId    用户ID
+     * @param page      当前查询页面
+     * @param pageSize  每页条数
+     * @return org.architect.util.PagedGridResult
+     * @author 多宝
+     * @since 2021/6/5 19:30
+     */
+    PagedGridResult getOrdersTrend(String userId,
+                                   Integer page,
+                                   Integer pageSize);
+
 
 
 }

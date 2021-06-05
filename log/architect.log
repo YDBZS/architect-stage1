@@ -1,7 +1,14 @@
-2021-06-04 08:00:00 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.OrdersServiceImpl.closeOrder====================
-2021-06-04 08:00:00 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
-2021-06-04 08:00:00 INFO  OrderJob:44 - 执行定时任务，当前的时间是：2021-06-04 08:00:00
-2021-06-04 08:00:49 INFO  ThreadPoolTaskScheduler:218 - Shutting down ExecutorService 'taskScheduler'
-2021-06-04 08:00:49 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
-2021-06-04 08:00:49 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
-2021-06-04 08:00:49 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.
+2021-06-05 19:42:00 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-06-05 19:42:00 INFO  DispatcherServlet:547 - Completed initialization in 5 ms
+2021-06-05 19:42:00 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyOrdersServiceImpl.getOrderStatusCounts====================
+2021-06-05 19:42:00 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyOrdersServiceImpl.getOrdersTrend====================
+2021-06-05 19:42:00 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2021-06-05 19:42:01 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2021-06-05 19:42:01 INFO  ServiceLogAspect:55 - ===========执行结束，耗时541毫秒============
+2021-06-05 19:42:03 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyOrdersServiceImpl.getOrderStatusCounts====================
+2021-06-05 19:42:03 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyOrdersServiceImpl.getOrdersTrend====================
+2021-06-05 19:42:03 INFO  ServiceLogAspect:55 - ===========执行结束，耗时7毫秒============
+2021-06-05 19:42:27 INFO  ThreadPoolTaskScheduler:218 - Shutting down ExecutorService 'taskScheduler'
+2021-06-05 19:42:27 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-05 19:42:27 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2021-06-05 19:42:27 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.

@@ -1,0 +1,18 @@
+2021-06-05 18:35:20 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyOrdersServiceImpl.queryMyOrders====================
+2021-06-05 18:35:20 INFO  ServiceLogAspect:55 - ===========执行结束，耗时23毫秒============
+2021-06-05 18:35:24 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyCommentsServiceImpl.queryMyComments====================
+2021-06-05 18:35:24 INFO  ServiceLogAspect:55 - ===========执行结束，耗时4毫秒============
+2021-06-05 18:35:25 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyOrdersServiceImpl.queryMyOrders====================
+2021-06-05 18:35:25 INFO  ServiceLogAspect:55 - ===========执行结束，耗时15毫秒============
+2021-06-05 18:35:26 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyOrdersServiceImpl.queryMyOrder====================
+2021-06-05 18:35:26 INFO  ServiceLogAspect:55 - ===========执行结束，耗时7毫秒============
+2021-06-05 18:35:26 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyCommentsServiceImpl.queryPendingComments====================
+2021-06-05 18:35:26 INFO  ServiceLogAspect:55 - ===========执行结束，耗时4毫秒============
+2021-06-05 18:35:48 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyOrdersServiceImpl.queryMyOrder====================
+2021-06-05 18:35:48 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-06-05 18:35:48 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyCommentsServiceImpl.saveComments====================
+2021-06-05 18:35:48 INFO  ServiceLogAspect:55 - ===========执行结束，耗时30毫秒============
+2021-06-05 18:35:50 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyOrdersServiceImpl.queryMyOrders====================
+2021-06-05 18:35:50 INFO  ServiceLogAspect:55 - ===========执行结束，耗时14毫秒============
+2021-06-05 18:35:52 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyCommentsServiceImpl.queryMyComments====================
+2021-06-05 18:35:52 INFO  ServiceLogAspect:55 - ===========执行结束，耗时4毫秒============
