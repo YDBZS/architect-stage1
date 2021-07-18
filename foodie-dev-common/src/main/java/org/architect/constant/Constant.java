@@ -26,7 +26,7 @@ public interface Constant {
 
     // 微信支付成功 -> 通知支付中心 -> 天天吃货平台
     //                           |->  回调通知的URL
-    String PAY_RETURN_URL = "http://localhost:8088/orders/notifyMerchantOrderPaid";
+    String PAY_RETURN_URL = "http://api.z.mukewang.com:8088/foodie-dev-api/orders/notifyMerchantOrderPaid";
 
     // 支付中心调用地址
     String PAYMENTURL = "https://payment.t.mukewang.com/foodie-payment/payment/createMerchantOrder";

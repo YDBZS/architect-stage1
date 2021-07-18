@@ -1,0 +1,35 @@
+2021-05-23 19:27:10 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-05-23 19:27:10 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 13236 (E:\mayuncode\aichitect-stage1\foodie-dev-api\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-05-23 19:27:10 INFO  Application:651 - No active profile set, falling back to default profiles: default
+2021-05-23 19:27:12 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[org.architect]' package. Please check your configuration.
+2021-05-23 19:27:12 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8088 (http)
+2021-05-23 19:27:13 INFO  ServletWebServerApplicationContext:283 - Root WebApplicationContext: initialization completed in 2088 ms
+2021-05-23 19:27:14 INFO  WebMvcPropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-05-23 19:27:14 INFO  ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-23 19:27:14 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-05-23 19:27:14 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-05-23 19:27:14 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-05-23 19:27:14 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2021-05-23 19:27:14 INFO  ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'taskScheduler'
+2021-05-23 19:27:14 INFO  DocumentationPluginsBootstrapper:93 - Documentation plugins bootstrapped
+2021-05-23 19:27:14 INFO  DocumentationPluginsBootstrapper:79 - Found 1 custom documentation plugin(s)
+2021-05-23 19:27:14 INFO  ApiListingReferenceScanner:44 - Scanning for api listing references
+2021-05-23 19:27:14 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: listUsingPOST_1
+2021-05-23 19:27:14 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_1
+2021-05-23 19:27:14 INFO  TomcatWebServer:203 - Tomcat started on port(s): 8088 (http) with context path ''
+2021-05-23 19:27:14 INFO  Application:61 - Started Application in 4.334 seconds (JVM running for 5.2)
+2021-05-23 19:27:15 INFO  OrderJob:20 - 执行定时任务，当前的时间是：2021-05-23 19:27:15
+2021-05-23 19:27:18 INFO  OrderJob:20 - 执行定时任务，当前的时间是：2021-05-23 19:27:18
+2021-05-23 19:27:21 INFO  OrderJob:20 - 执行定时任务，当前的时间是：2021-05-23 19:27:21
+2021-05-23 19:27:24 INFO  OrderJob:20 - 执行定时任务，当前的时间是：2021-05-23 19:27:24
+2021-05-23 19:27:27 INFO  OrderJob:20 - 执行定时任务，当前的时间是：2021-05-23 19:27:27
+2021-05-23 19:27:30 INFO  OrderJob:20 - 执行定时任务，当前的时间是：2021-05-23 19:27:30
+2021-05-23 19:27:33 INFO  OrderJob:20 - 执行定时任务，当前的时间是：2021-05-23 19:27:33
+2021-05-23 19:27:36 INFO  OrderJob:20 - 执行定时任务，当前的时间是：2021-05-23 19:27:36
+2021-05-23 19:27:39 INFO  OrderJob:20 - 执行定时任务，当前的时间是：2021-05-23 19:27:39
+2021-05-23 19:27:42 INFO  OrderJob:20 - 执行定时任务，当前的时间是：2021-05-23 19:27:42
+2021-05-23 19:27:45 INFO  OrderJob:20 - 执行定时任务，当前的时间是：2021-05-23 19:27:45
+2021-05-23 19:27:48 INFO  OrderJob:20 - 执行定时任务，当前的时间是：2021-05-23 19:27:48
+2021-05-23 19:27:51 INFO  OrderJob:20 - 执行定时任务，当前的时间是：2021-05-23 19:27:51
+2021-05-23 19:27:54 INFO  OrderJob:20 - 执行定时任务，当前的时间是：2021-05-23 19:27:54
+2021-05-23 19:27:57 INFO  OrderJob:20 - 执行定时任务，当前的时间是：2021-05-23 19:27:57

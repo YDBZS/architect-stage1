@@ -26,6 +26,7 @@ public class WebMVConfig implements WebMvcConfigurer {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/**")
                 .addResourceLocations("classpath:/META-INF/resources/")                         // 映射Swagger2
-                .addResourceLocations("file:"+"/E:/mayuncode/aichitect-stage1/userface/");       // 映射本地静态资源
+                .addResourceLocations("file:"+"/E:/mayuncode/aichitect-stage1/userface/")       // 映射本地静态资源
+                .addResourceLocations("file:"+"/usr/local/userface/");       // 映射服务器静态资源
     }
 }

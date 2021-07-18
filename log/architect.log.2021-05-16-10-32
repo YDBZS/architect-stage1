@@ -1,0 +1,6 @@
+2021-05-16 10:32:43 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.searchItems====================
+2021-05-16 10:32:43 INFO  ServiceLogAspect:55 - ===========执行结束，耗时8毫秒============
+2021-05-16 10:32:44 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.searchItems====================
+2021-05-16 10:32:44 INFO  ServiceLogAspect:55 - ===========执行结束，耗时7毫秒============
+2021-05-16 10:32:45 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.searchItems====================
+2021-05-16 10:32:45 INFO  ServiceLogAspect:55 - ===========执行结束，耗时6毫秒============
