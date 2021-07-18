@@ -4,9 +4,11 @@ import com.architect.mapper.OrderItemsMapper;
 import com.architect.mapper.OrderStatusMapper;
 import com.architect.mapper.OrdersMapper;
 import com.architect.pojo.*;
+import com.architect.pojo.bo.ShopcartBO;
 import com.architect.pojo.bo.SubmitOrderBo;
 import com.architect.pojo.vo.MerchantOrdersVO;
 import com.architect.pojo.vo.OrderVO;
+import com.google.common.collect.Lists;
 import org.architect.constant.Constant;
 import org.architect.enums.OrderStatusEnum;
 import org.architect.enums.YesOrNo;
@@ -47,7 +49,7 @@ public class OrdersServiceImpl implements OrdersService {
 
     @Override
     @Transactional(propagation = Propagation.REQUIRED)
-    public OrderVO createOrder(SubmitOrderBo submitOrderBo) {
+    public OrderVO createOrder(List<ShopcartBO> list, SubmitOrderBo submitOrderBo) {
         String userId = submitOrderBo.getUserId();
         String addressId = submitOrderBo.getAddressId();
         String itemSpecIds = submitOrderBo.getItemSpecIds();
@@ -81,11 +83,14 @@ public class OrdersServiceImpl implements OrdersService {
         String[] specIdList = itemSpecIds.split(",");
         int totalAmount = 0;    // 商品原价累计
         int realPayAmount = 0;  // 优惠后的实际支付价格累计
+        List<ShopcartBO> toBeRemovedShopcartList = Lists.newArrayList();
         for (String specId : specIdList) {
             // 2.1 根据规格ID，查询规格的具体信息，主要获取价格
-            // todo 整合redis后，商品购买的数量重新从redis的购物车中获取
-            int buyCounts = 1;
+            // 整合redis后，商品购买的数量重新从redis的购物车中获取
+            ShopcartBO shopcartBO = getBuyCountsFromShopcart(list, specId);
 
+            int buyCounts = shopcartBO.getBuyCounts();
+            toBeRemovedShopcartList.add(shopcartBO);
             ItemsSpec itemsSpec = itemService.queryItemSpecById(specId);
             totalAmount += itemsSpec.getPriceNormal() * buyCounts;
             realPayAmount += itemsSpec.getPriceDiscount() * buyCounts;
@@ -136,8 +141,26 @@ public class OrdersServiceImpl implements OrdersService {
         OrderVO orderVO = new OrderVO();
         orderVO.setOrderId(orderId);
         orderVO.setMerchantOrdersVO(ordersVO);
-
+        orderVO.setToBeRemovedShopcartList(toBeRemovedShopcartList);
         return orderVO;
+    }
+
+    /**
+     * 通过购物车获取购买数量
+     *
+     * @param list       购物车数据
+     * @param itemSpecId 规格ID
+     * @return com.architect.pojo.bo.ShopcartBO
+     * @author 多宝
+     * @since 2021/7/18 18:02
+     */
+    private ShopcartBO getBuyCountsFromShopcart(List<ShopcartBO> list, String itemSpecId) {
+        for (ShopcartBO item : list) {
+            if (item.getSpecId().equals(itemSpecId)) {
+                return item;
+            }
+        }
+        return null;
     }
 
     @Override

@@ -1,0 +1,1 @@
+2021-07-18 17:45:27 INFO  ShopcatController:47 - 接收到的数据 --> ShopcartBO(itemId=cake-1005, itemImgUrl=http://122.152.205.72:88/foodie/cake-1005/img1.png, itemName=【天天吃货】进口美食凤梨酥, specId=cake-1005-spec-1, specName=巧克力, buyCounts=1, priceDiscount=16020, priceNormal=17800)

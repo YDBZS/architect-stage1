@@ -10,6 +10,7 @@ org\architect\controller\center\MyOrdersController.class
 org\architect\controller\HelloController.class
 org\architect\controller\ShopcatController.class
 org\architect\controller\center\CenterUserController.class
+org\architect\controller\RedisController.class
 org\architect\aspect\ServiceLogAspect.class
 org\architect\controller\IndexController.class
 org\architect\controller\center\MyCommentsController.class
@@ -17,7 +18,6 @@ org\architect\util\CheckUserOrderUtil.class
 org\architect\config\WebMVConfig.class
 org\architect\config\OrderJob.class
 org\architect\controller\ItemsController.class
-org\architect\WarApplicationStarter.class
 org\architect\controller\center\CenterController.class
 org\architect\controller\AddressController.class
 org\architect\exception\CustomExceptionHandler.class

@@ -1,0 +1,32 @@
+2021-07-18 17:44:03 INFO  ThreadPoolTaskScheduler:218 - Shutting down ExecutorService 'taskScheduler'
+2021-07-18 17:44:03 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-18 17:44:06 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-07-18 17:44:07 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 18048 (E:\mayuncode\aichitect-stage1\foodie-dev-api\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-07-18 17:44:07 INFO  Application:655 - The following profiles are active: dev
+2021-07-18 17:44:07 INFO  RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-18 17:44:07 INFO  RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-07-18 17:44:07 INFO  RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2021-07-18 17:44:07 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[org.architect]' package. Please check your configuration.
+2021-07-18 17:44:08 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8088 (http)
+2021-07-18 17:44:08 INFO  ServletWebServerApplicationContext:283 - Root WebApplicationContext: initialization completed in 1404 ms
+2021-07-18 17:44:09 INFO  WebMvcPropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-07-18 17:44:09 INFO  ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-18 17:44:10 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-07-18 17:44:10 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-07-18 17:44:10 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-07-18 17:44:10 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2021-07-18 17:44:10 INFO  ThreadPoolTaskScheduler:181 - Initializing ExecutorService 'taskScheduler'
+2021-07-18 17:44:10 INFO  DocumentationPluginsBootstrapper:93 - Documentation plugins bootstrapped
+2021-07-18 17:44:10 INFO  DocumentationPluginsBootstrapper:79 - Found 1 custom documentation plugin(s)
+2021-07-18 17:44:10 INFO  ApiListingReferenceScanner:44 - Scanning for api listing references
+2021-07-18 17:44:10 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingPOST_1
+2021-07-18 17:44:10 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: queryUsingPOST_1
+2021-07-18 17:44:10 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: listUsingPOST_1
+2021-07-18 17:44:10 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_1
+2021-07-18 17:44:10 INFO  TomcatWebServer:203 - Tomcat started on port(s): 8088 (http) with context path ''
+2021-07-18 17:44:10 INFO  Application:61 - Started Application in 3.748 seconds (JVM running for 4.426)
+2021-07-18 17:44:23 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-07-18 17:44:23 INFO  DispatcherServlet:547 - Completed initialization in 6 ms
+2021-07-18 17:44:23 INFO  ShopcatController:47 - 接收到的数据 --> ShopcartBO(itemId=cake-1005, itemImgUrl=http://122.152.205.72:88/foodie/cake-1005/img1.png, itemName=【天天吃货】进口美食凤梨酥, specId=cake-1005-spec-1, specName=巧克力, buyCounts=1, priceDiscount=16020, priceNormal=17800)
+2021-07-18 17:44:23 INFO  EpollProvider:68 - Starting without optional epoll library
+2021-07-18 17:44:23 INFO  KqueueProvider:70 - Starting without optional kqueue library

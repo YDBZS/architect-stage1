@@ -1,0 +1,30 @@
+2021-07-18 17:40:22 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CarouselServiceImpl.queryAll====================
+2021-07-18 17:40:22 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.queryAllRootLevelCat====================
+2021-07-18 17:40:22 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2021-07-18 17:40:23 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2021-07-18 17:40:23 INFO  ServiceLogAspect:55 - ===========执行结束，耗时630毫秒============
+2021-07-18 17:40:23 INFO  ServiceLogAspect:55 - ===========执行结束，耗时631毫秒============
+2021-07-18 17:40:23 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 17:40:23 INFO  ServiceLogAspect:55 - ===========执行结束，耗时12毫秒============
+2021-07-18 17:40:24 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 17:40:24 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 17:40:24 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 17:40:24 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 17:40:28 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 17:40:28 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 17:40:28 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 17:40:28 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 17:40:29 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 17:40:29 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 17:40:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-07-18 17:40:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 17:40:32 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSubCatList====================
+2021-07-18 17:40:32 INFO  ServiceLogAspect:55 - ===========执行结束，耗时4毫秒============
+2021-07-18 17:40:56 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 17:40:56 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 17:40:57 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 17:40:57 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 17:40:58 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 17:40:58 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-07-18 17:40:58 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 17:40:58 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============

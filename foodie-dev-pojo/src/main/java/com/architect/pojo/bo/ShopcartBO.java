@@ -7,7 +7,7 @@ import lombok.Data;
  * @since 2021/5/16 11:39
  */
 @Data
-public class ShopcartBo {
+public class ShopcartBO {
 
     private String itemId;
 

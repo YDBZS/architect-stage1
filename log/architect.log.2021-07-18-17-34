@@ -1,0 +1,14 @@
+2021-07-18 17:34:26 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryCommentCounts====================
+2021-07-18 17:34:26 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryPagedComments====================
+2021-07-18 17:34:26 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-07-18 17:34:26 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2021-07-18 17:34:26 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2021-07-18 17:34:26 INFO  ServiceLogAspect:55 - ===========执行结束，耗时608毫秒============
+2021-07-18 17:34:26 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemImageList====================
+2021-07-18 17:34:26 INFO  ServiceLogAspect:55 - ===========执行结束，耗时621毫秒============
+2021-07-18 17:34:26 INFO  ServiceLogAspect:55 - ===========执行结束，耗时12毫秒============
+2021-07-18 17:34:26 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecList====================
+2021-07-18 17:34:26 INFO  ServiceLogAspect:55 - ===========执行结束，耗时629毫秒============
+2021-07-18 17:34:26 INFO  ServiceLogAspect:55 - ===========执行结束，耗时16毫秒============
+2021-07-18 17:34:26 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemParamList====================
+2021-07-18 17:34:26 INFO  ServiceLogAspect:55 - ===========执行结束，耗时4毫秒============

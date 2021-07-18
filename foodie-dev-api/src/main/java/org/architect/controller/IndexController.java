@@ -3,12 +3,16 @@ package org.architect.controller;
 import com.architect.pojo.Carousel;
 import com.architect.pojo.Category;
 import com.architect.pojo.vo.CategoryVO;
+import com.google.common.collect.Lists;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
+import org.apache.commons.lang3.StringUtils;
 import org.architect.enums.YesOrNo;
 import org.architect.service.CarouselService;
 import org.architect.service.CategoryService;
+import org.architect.util.JsonUtils;
+import org.architect.util.RedisOperator;
 import org.architect.util.ReturnResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,6 +20,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -33,13 +38,32 @@ public class IndexController {
     private CarouselService carouselService;
     @Resource
     private CategoryService categoryService;
+    @Resource
+    private RedisOperator redisOperator;
 
     @ApiOperation(value = "查询轮播图", httpMethod = "GET")
     @GetMapping("/carousel")
     public ReturnResult caroucel() {
-        List<Carousel> carousels = carouselService.queryAll(YesOrNo.YES.type);
+        List<Carousel> carousels;
+
+        String carouselStr = redisOperator.get("carousel");
+
+        if (StringUtils.isBlank(carouselStr)) {
+            carousels = carouselService.queryAll(YesOrNo.YES.type);
+            redisOperator.set("carousel", JsonUtils.objectToJson(carousels));
+        } else {
+            carousels = JsonUtils.jsonToList(carouselStr, Carousel.class);
+        }
+
         return ReturnResult.ok(carousels);
     }
+
+    /**
+     *  如果数据发生更改，如何重新刷新缓存数据呢？
+     *  1、后台运营系统，一旦广告(轮播图)发生更改，就可以删除缓存，然后重置
+     *  2、定时重置，如每天凌晨三点重置
+     *  3、没个轮播图都有可能是一个广告，每一个广告都会有一个过期时间，过期了，再重置。
+     */
 
     /**
      * 首页分类展示需求：
@@ -49,7 +73,14 @@ public class IndexController {
     @ApiOperation(value = "查询一级大分类", httpMethod = "GET")
     @GetMapping("/cats")
     public ReturnResult category() {
-        List<Category> list = categoryService.queryAllRootLevelCat();
+        List<Category> list;
+        String catsStr = redisOperator.get("cats");
+        if (StringUtils.isBlank(catsStr)) {
+            list = categoryService.queryAllRootLevelCat();
+            redisOperator.set("cats", JsonUtils.objectToJson(list));
+        } else {
+            list = JsonUtils.jsonToList(catsStr, Category.class);
+        }
         return ReturnResult.ok(list);
     }
 
@@ -61,7 +92,28 @@ public class IndexController {
         if (null == rootCatId) {
             return ReturnResult.errorMsg("");
         }
-        List<CategoryVO> list = categoryService.getSubCatList(rootCatId);
+        List<CategoryVO> list;
+        String catsStr = redisOperator.get("subCat:" + rootCatId);
+        if (StringUtils.isBlank(catsStr)) {
+            list = categoryService.getSubCatList(rootCatId);
+
+            /**
+             * 查询的key在redis中不存在，
+             * 对应的id在数据库也不存在，
+             * 此时被非法用户进行攻击，大量的请求会直接打在db上，
+             * 造成宕机，从而影响整个系统，
+             * 这种现象称之为缓存穿透。
+             * 解决方案：把空的数据也缓存起来，比如空字符串，空对象，空数组或list
+             */
+            if (list != null && list.size() > 0) {
+                redisOperator.set("subCat:" + rootCatId, JsonUtils.objectToJson(list));
+            } else {
+                redisOperator.set("subCat:" + rootCatId, JsonUtils.objectToJson(list), 5*60);
+            }
+        } else {
+            list = JsonUtils.jsonToList(catsStr, CategoryVO.class);
+        }
+
         return ReturnResult.ok(list);
     }
 

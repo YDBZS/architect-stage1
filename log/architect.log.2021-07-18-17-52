@@ -1,0 +1,26 @@
+2021-07-18 17:52:15 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemsBySpecIds====================
+2021-07-18 17:52:15 INFO  ServiceLogAspect:55 - ===========执行结束，耗时4毫秒============
+2021-07-18 17:52:20 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 17:52:20 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 17:52:20 INFO  ServiceLogAspect:55 - ===========执行结束，耗时10毫秒============
+2021-07-18 17:52:20 INFO  ServiceLogAspect:55 - ===========执行结束，耗时5毫秒============
+2021-07-18 17:52:20 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 17:52:20 INFO  ServiceLogAspect:55 - ===========执行结束，耗时5毫秒============
+2021-07-18 17:52:22 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-07-18 17:52:22 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryCommentCounts====================
+2021-07-18 17:52:22 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryPagedComments====================
+2021-07-18 17:52:22 INFO  ServiceLogAspect:55 - ===========执行结束，耗时6毫秒============
+2021-07-18 17:52:22 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemImageList====================
+2021-07-18 17:52:22 INFO  ServiceLogAspect:55 - ===========执行结束，耗时11毫秒============
+2021-07-18 17:52:22 INFO  ServiceLogAspect:55 - ===========执行结束，耗时121毫秒============
+2021-07-18 17:52:22 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecList====================
+2021-07-18 17:52:22 INFO  ServiceLogAspect:55 - ===========执行结束，耗时4毫秒============
+2021-07-18 17:52:22 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemParamList====================
+2021-07-18 17:52:22 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 17:52:22 INFO  ServiceLogAspect:55 - ===========执行结束，耗时153毫秒============
+2021-07-18 17:52:27 INFO  ShopcatController:47 - 接收到的数据 --> ShopcartBO(itemId=bingan-1005, itemImgUrl=http://122.152.205.72:88/foodie/bingan-1005/img1.png, itemName=【天天吃货】夹心吐司面包 早餐面包 早点早饭, specId=bingan-1005-spec-1, specName=巧克力, buyCounts=1, priceDiscount=19800, priceNormal=22000)
+2021-07-18 17:52:27 INFO  EpollProvider:68 - Starting without optional epoll library
+2021-07-18 17:52:27 INFO  KqueueProvider:70 - Starting without optional kqueue library
+2021-07-18 17:52:30 INFO  ShopcatController:47 - 接收到的数据 --> ShopcartBO(itemId=bingan-1005, itemImgUrl=http://122.152.205.72:88/foodie/bingan-1005/img1.png, itemName=【天天吃货】夹心吐司面包 早餐面包 早点早饭, specId=bingan-1005-spec-3, specName=芒果口味, buyCounts=1, priceDiscount=22000, priceNormal=22000)
+2021-07-18 17:52:40 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemsBySpecIds====================
+2021-07-18 17:52:40 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============

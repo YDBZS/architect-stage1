@@ -2,6 +2,7 @@ org\architect\enums\Sex.class
 org\n3r\idworker\Id.class
 org\n3r\idworker\strategy\DefaultRandomCodeStrategy.class
 org\n3r\idworker\utils\HttpReq.class
+org\architect\util\RedisOperator$1.class
 org\architect\enums\PayMethod.class
 org\n3r\idworker\Code.class
 org\n3r\idworker\strategy\FileLock.class
@@ -14,6 +15,7 @@ org\architect\util\CookieUtils.class
 org\n3r\idworker\Sid$1.class
 org\n3r\idworker\utils\Props.class
 org\n3r\idworker\strategy\DefaultRandomCodeStrategy$1.class
+org\architect\util\RedisOperator.class
 org\n3r\idworker\Sid.class
 org\n3r\idworker\RandomCodeStrategy.class
 org\n3r\idworker\utils\IPv4Utils.class

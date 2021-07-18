@@ -1,0 +1,2 @@
+2021-07-18 17:36:51 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CarouselServiceImpl.queryAll====================
+2021-07-18 17:36:51 INFO  ServiceLogAspect:55 - ===========执行结束，耗时5毫秒============

@@ -1,0 +1,56 @@
+2021-07-18 21:20:02 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 21:20:02 INFO  ServiceLogAspect:55 - ===========执行结束，耗时4毫秒============
+2021-07-18 21:20:02 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 21:20:02 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 21:20:02 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 21:20:02 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 21:20:03 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 21:20:03 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-07-18 21:20:03 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 21:20:03 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 21:20:04 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 21:20:04 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 21:20:05 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-07-18 21:20:05 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryCommentCounts====================
+2021-07-18 21:20:05 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryPagedComments====================
+2021-07-18 21:20:05 INFO  ServiceLogAspect:55 - ===========执行结束，耗时9毫秒============
+2021-07-18 21:20:05 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemImageList====================
+2021-07-18 21:20:05 INFO  ServiceLogAspect:55 - ===========执行结束，耗时29毫秒============
+2021-07-18 21:20:05 INFO  ServiceLogAspect:55 - ===========执行结束，耗时23毫秒============
+2021-07-18 21:20:05 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecList====================
+2021-07-18 21:20:05 INFO  ServiceLogAspect:55 - ===========执行结束，耗时4毫秒============
+2021-07-18 21:20:05 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemParamList====================
+2021-07-18 21:20:05 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 21:20:05 INFO  ServiceLogAspect:55 - ===========执行结束，耗时61毫秒============
+2021-07-18 21:20:12 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 21:20:12 INFO  ServiceLogAspect:55 - ===========执行结束，耗时4毫秒============
+2021-07-18 21:20:12 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 21:20:12 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 21:20:13 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 21:20:13 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 21:20:14 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-07-18 21:20:14 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryCommentCounts====================
+2021-07-18 21:20:14 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryPagedComments====================
+2021-07-18 21:20:14 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 21:20:14 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemImageList====================
+2021-07-18 21:20:14 INFO  ServiceLogAspect:55 - ===========执行结束，耗时4毫秒============
+2021-07-18 21:20:14 INFO  ServiceLogAspect:55 - ===========执行结束，耗时6毫秒============
+2021-07-18 21:20:14 INFO  ServiceLogAspect:55 - ===========执行结束，耗时4毫秒============
+2021-07-18 21:20:14 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecList====================
+2021-07-18 21:20:14 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 21:20:14 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemParamList====================
+2021-07-18 21:20:14 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 21:20:49 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemById====================
+2021-07-18 21:20:49 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryPagedComments====================
+2021-07-18 21:20:49 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryCommentCounts====================
+2021-07-18 21:20:49 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-07-18 21:20:49 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemImageList====================
+2021-07-18 21:20:49 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-07-18 21:20:49 INFO  ServiceLogAspect:55 - ===========执行结束，耗时4毫秒============
+2021-07-18 21:20:49 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-07-18 21:20:49 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemSpecList====================
+2021-07-18 21:20:49 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-07-18 21:20:49 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemParamList====================
+2021-07-18 21:20:49 INFO  ServiceLogAspect:55 - ===========执行结束，耗时1毫秒============
+2021-07-18 21:20:56 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemsBySpecIds====================
+2021-07-18 21:20:56 INFO  ServiceLogAspect:55 - ===========执行结束，耗时5毫秒============

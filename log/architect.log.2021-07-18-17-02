@@ -1,0 +1,45 @@
+2021-07-18 17:02:38 INFO  ThreadPoolTaskScheduler:218 - Shutting down ExecutorService 'taskScheduler'
+2021-07-18 17:02:38 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-18 17:02:38 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2021-07-18 17:02:38 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.
+2021-07-18 17:02:43 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-07-18 17:02:43 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 8424 (E:\mayuncode\aichitect-stage1\foodie-dev-api\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-07-18 17:02:43 INFO  Application:655 - The following profiles are active: dev
+2021-07-18 17:02:44 INFO  RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-18 17:02:44 INFO  RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-07-18 17:02:44 INFO  RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2021-07-18 17:02:44 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[org.architect]' package. Please check your configuration.
+2021-07-18 17:02:45 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8088 (http)
+2021-07-18 17:02:45 INFO  ServletWebServerApplicationContext:283 - Root WebApplicationContext: initialization completed in 1430 ms
+2021-07-18 17:02:46 WARN  AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'redisTemplate' is expected to be of type 'org.architect.util.RedisOperator' but was actually of type 'org.springframework.data.redis.core.RedisTemplate'
+2021-07-18 17:02:46 ERROR SpringApplication:826 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'redisTemplate' is expected to be of type 'org.architect.util.RedisOperator' but was actually of type 'org.springframework.data.redis.core.RedisTemplate'
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.architect.Application.main(Application.java:24)
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'redisTemplate' is expected to be of type 'org.architect.util.RedisOperator' but was actually of type 'org.springframework.data.redis.core.RedisTemplate'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:399)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:453)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:527)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:497)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:650)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:318)
+	... 17 more

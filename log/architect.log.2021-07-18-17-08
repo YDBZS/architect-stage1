@@ -1,0 +1,20 @@
+2021-07-18 17:08:41 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CarouselServiceImpl.queryAll====================
+2021-07-18 17:08:41 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.queryAllRootLevelCat====================
+2021-07-18 17:08:41 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 17:08:41 INFO  ServiceLogAspect:55 - ===========执行结束，耗时5毫秒============
+2021-07-18 17:08:42 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CarouselServiceImpl.queryAll====================
+2021-07-18 17:08:42 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.queryAllRootLevelCat====================
+2021-07-18 17:08:42 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 17:08:42 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 17:08:43 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CarouselServiceImpl.queryAll====================
+2021-07-18 17:08:43 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.queryAllRootLevelCat====================
+2021-07-18 17:08:43 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-07-18 17:08:43 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 17:08:44 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CarouselServiceImpl.queryAll====================
+2021-07-18 17:08:44 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.queryAllRootLevelCat====================
+2021-07-18 17:08:44 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 17:08:44 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 17:08:46 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CarouselServiceImpl.queryAll====================
+2021-07-18 17:08:46 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.queryAllRootLevelCat====================
+2021-07-18 17:08:46 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 17:08:46 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============

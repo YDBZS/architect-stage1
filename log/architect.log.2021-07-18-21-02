@@ -1,0 +1,11 @@
+2021-07-18 21:02:27 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemsBySpecIds====================
+2021-07-18 21:02:27 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-07-18 21:02:29 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyOrdersServiceImpl.getOrderStatusCounts====================
+2021-07-18 21:02:29 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyOrdersServiceImpl.getOrdersTrend====================
+2021-07-18 21:02:29 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 21:02:29 INFO  ServiceLogAspect:55 - ===========执行结束，耗时5毫秒============
+2021-07-18 21:02:49 INFO  CookieUtils:210 - ========== domainName: localhost ==========
+2021-07-18 21:02:49 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 21:02:49 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 21:02:51 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemsBySpecIds====================
+2021-07-18 21:02:51 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============

@@ -1,0 +1,8 @@
+2021-07-18 21:03:14 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.UserServiceImpl.queryUserForLogin====================
+2021-07-18 21:03:14 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============
+2021-07-18 21:03:14 INFO  CookieUtils:210 - ========== domainName: localhost ==========
+2021-07-18 21:03:14 INFO  CookieUtils:210 - ========== domainName: localhost ==========
+2021-07-18 21:03:14 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.CategoryServiceImpl.getSixNewItemsLazy====================
+2021-07-18 21:03:14 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============
+2021-07-18 21:03:16 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.ItemServiceImpl.queryItemsBySpecIds====================
+2021-07-18 21:03:16 INFO  ServiceLogAspect:55 - ===========执行结束，耗时2毫秒============

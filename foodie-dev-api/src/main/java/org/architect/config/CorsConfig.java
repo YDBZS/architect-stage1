@@ -1,6 +1,7 @@
 package org.architect.config;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
@@ -11,7 +12,7 @@ import org.springframework.web.filter.CorsFilter;
  * @author 多宝
  * @since 2021/3/13 18:45
  */
-//@Configuration
+@Configuration
 public class CorsConfig {
 
     public CorsConfig() {
@@ -22,6 +23,7 @@ public class CorsConfig {
         // 1、添加cors配置信息
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.addAllowedOrigin("http://localhost:8080");
+        configuration.addAllowedOrigin("http://127.0.0.1:8080");
         configuration.addAllowedOrigin("http://192.168.52.128:8080");
         configuration.addAllowedOrigin("http://192.168.52.128");
         configuration.addAllowedOrigin("http://www.ttch.com");

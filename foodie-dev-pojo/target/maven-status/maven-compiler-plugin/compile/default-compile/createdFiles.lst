@@ -9,7 +9,6 @@ com\architect\pojo\Orders.class
 com\architect\pojo\vo\CommentLevelCountVO.class
 com\architect\pojo\vo\SearchItemsVO.class
 com\architect\pojo\UserAddress.class
-com\architect\pojo\bo\ShopcartBo.class
 com\architect\pojo\vo\ShopcartVO.class
 com\architect\pojo\vo\ItemInfoVO.class
 com\architect\pojo\Category.class
@@ -30,6 +29,7 @@ com\architect\pojo\bo\UsersBO.class
 com\architect\pojo\vo\OrderStatusCountsVO$OrderStatusCountsVOBuilderImpl.class
 com\architect\pojo\vo\MerchantOrdersVO.class
 com\architect\pojo\Stu.class
+com\architect\pojo\bo\ShopcartBO.class
 com\architect\pojo\OrderItems.class
 com\architect\pojo\Users.class
 com\architect\pojo\bo\AddressBO.class
