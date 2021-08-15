@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * 测试接口
@@ -39,7 +42,34 @@ public class RedisController {
     public Object hello(String key) {
         redisOperator.del(key);
         return "OJBK";
+    }
 
+    /**
+     * 大量的key的查询
+     *
+     * @param keys 未知个数的Redis中的key
+     * @return
+     */
+    @GetMapping("/getAlot")
+    public Object getAlot(String... keys) {
+        // 循环获取数据是可以实现批量数据的获取的，但是比较写法的low
+        // 针对大量的key去做一个循环
+//        List<String> result = new ArrayList<>();
+//        for (String key : keys) {
+//            result.add(redisOperator.get(key));
+//        }
+        // 通过multiGet的方式批量获取key的值
+        return redisOperator.mget(Arrays.asList(keys));
+    }
+
+    /**
+     * 通过pipeline管道形式批量获取Redis中的数据
+     *
+     * @param keys 未知个数的Redis中的key
+     */
+    @GetMapping("/batchGet")
+    public Object batchGet(String... keys) {
+        return redisOperator.batchGet(Arrays.asList(keys));
     }
 
 }

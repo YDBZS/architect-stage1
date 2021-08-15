@@ -1,0 +1,32 @@
+2021-08-15 12:26:53 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-15 12:26:55 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-08-15 12:26:55 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 6536 (E:\mayuncode\aichitect-stage1\foodie-dev-api\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-08-15 12:26:55 INFO  Application:655 - The following profiles are active: dev
+2021-08-15 12:26:56 INFO  RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-15 12:26:56 INFO  RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-15 12:26:56 INFO  RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2021-08-15 12:26:56 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[org.architect]' package. Please check your configuration.
+2021-08-15 12:26:57 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8088 (http)
+2021-08-15 12:26:57 INFO  ServletWebServerApplicationContext:283 - Root WebApplicationContext: initialization completed in 1457 ms
+2021-08-15 12:26:58 INFO  WebMvcPropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-08-15 12:26:58 INFO  EpollProvider:68 - Starting without optional epoll library
+2021-08-15 12:26:58 INFO  KqueueProvider:70 - Starting without optional kqueue library
+2021-08-15 12:26:59 INFO  ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 12:26:59 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-08-15 12:26:59 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-08-15 12:26:59 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-08-15 12:26:59 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2021-08-15 12:26:59 INFO  UserDetailsServiceAutoConfiguration:86 - 
+
+Using generated security password: abc421f1-6854-4e76-bc2b-28b0c5cbc875
+
+2021-08-15 12:26:59 INFO  DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3ca6bd01, org.springframework.security.web.context.SecurityContextPersistenceFilter@52f7fa65, org.springframework.security.web.header.HeaderWriterFilter@105dc246, org.springframework.security.web.csrf.CsrfFilter@bcd9ed6, org.springframework.security.web.authentication.logout.LogoutFilter@29394966, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@ae74eef, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1885dc2b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5acd7d1c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1dadd172, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7bfcc108, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@91a1005, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b52a40, org.springframework.security.web.session.SessionManagementFilter@7f8cd5fc, org.springframework.security.web.access.ExceptionTranslationFilter@6b71e98f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d50a3d9]
+2021-08-15 12:26:59 INFO  DocumentationPluginsBootstrapper:93 - Documentation plugins bootstrapped
+2021-08-15 12:26:59 INFO  DocumentationPluginsBootstrapper:79 - Found 1 custom documentation plugin(s)
+2021-08-15 12:26:59 INFO  ApiListingReferenceScanner:44 - Scanning for api listing references
+2021-08-15 12:26:59 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: deleteUsingPOST_1
+2021-08-15 12:26:59 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: queryUsingPOST_1
+2021-08-15 12:26:59 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: listUsingPOST_1
+2021-08-15 12:26:59 WARN  ParameterDataTypeReader:102 - Trying to infer dataType java.lang.String[]
+2021-08-15 12:26:59 WARN  ParameterDataTypeReader:102 - Trying to infer dataType java.lang.String[]
+2021-08-15 12:26:59 INFO  CachingOperationNameGenerator:41 - Generating unique operation named: addUsingPOST_1

@@ -1,6 +1,7 @@
 org\architect\controller\PassprotController.class
 org\architect\config\Swagger2.class
 org\architect\config\CorsConfig.class
+org\architect\controller\interceptor\UserTokenInterceptor.class
 org\architect\controller\OrdersController.class
 org\architect\resource\FileUpload.class
 META-INF\spring-configuration-metadata.json
@@ -18,6 +19,7 @@ org\architect\util\CheckUserOrderUtil.class
 org\architect\config\WebMVConfig.class
 org\architect\config\OrderJob.class
 org\architect\controller\ItemsController.class
+org\architect\util\DistributedSessionUtil.class
 org\architect\controller\center\CenterController.class
 org\architect\controller\AddressController.class
 org\architect\exception\CustomExceptionHandler.class

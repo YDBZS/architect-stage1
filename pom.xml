@@ -18,6 +18,7 @@
         <module>
             foodie-dev-api
         </module>
+        <module>foodie-sso</module>
     </modules>
 
     <!--
@@ -94,6 +95,18 @@
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-spring-boot-starter</artifactId>
             <version>2.1.5</version>
+        </dependency>
+
+        <!-- 引入 SpringSession 依赖 -->
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session-data-redis</artifactId>
+        </dependency>
+
+        <!-- 引入Spring安全框架 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
         <!--redis-->

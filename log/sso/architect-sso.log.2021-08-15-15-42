@@ -1,0 +1,48 @@
+2021-08-15 15:42:07 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:42:11 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-08-15 15:42:11 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 9228 (E:\mayuncode\aichitect-stage1\foodie-sso\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-08-15 15:42:11 INFO  Application:655 - The following profiles are active: dev
+2021-08-15 15:42:11 INFO  RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-15 15:42:11 INFO  RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-15 15:42:11 INFO  RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2021-08-15 15:42:11 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[org.architect.sso]' package. Please check your configuration.
+2021-08-15 15:42:12 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8090 (http)
+2021-08-15 15:42:12 INFO  ServletWebServerApplicationContext:283 - Root WebApplicationContext: initialization completed in 1315 ms
+2021-08-15 15:42:13 INFO  WebMvcPropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-08-15 15:42:13 INFO  ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:42:13 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-08-15 15:42:13 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-08-15 15:42:13 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-08-15 15:42:13 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2021-08-15 15:42:14 INFO  EpollProvider:68 - Starting without optional epoll library
+2021-08-15 15:42:14 INFO  KqueueProvider:70 - Starting without optional kqueue library
+2021-08-15 15:42:14 INFO  DocumentationPluginsBootstrapper:93 - Documentation plugins bootstrapped
+2021-08-15 15:42:14 INFO  DocumentationPluginsBootstrapper:79 - Found 1 custom documentation plugin(s)
+2021-08-15 15:42:14 INFO  ApiListingReferenceScanner:44 - Scanning for api listing references
+2021-08-15 15:42:15 INFO  ScheduledAnnotationBeanPostProcessor:309 - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-08-15 15:42:15 INFO  TomcatWebServer:203 - Tomcat started on port(s): 8090 (http) with context path ''
+2021-08-15 15:42:15 INFO  Application:61 - Started Application in 4.328 seconds (JVM running for 4.979)
+2021-08-15 15:42:53 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:42:55 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-08-15 15:42:55 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 2028 (E:\mayuncode\aichitect-stage1\foodie-sso\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-08-15 15:42:55 INFO  Application:655 - The following profiles are active: dev
+2021-08-15 15:42:56 INFO  RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-15 15:42:56 INFO  RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-15 15:42:56 INFO  RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2021-08-15 15:42:56 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[org.architect.sso]' package. Please check your configuration.
+2021-08-15 15:42:56 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8090 (http)
+2021-08-15 15:42:56 INFO  ServletWebServerApplicationContext:283 - Root WebApplicationContext: initialization completed in 1367 ms
+2021-08-15 15:42:58 INFO  WebMvcPropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-08-15 15:42:58 INFO  ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:42:58 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-08-15 15:42:58 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-08-15 15:42:58 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-08-15 15:42:58 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2021-08-15 15:42:58 INFO  EpollProvider:68 - Starting without optional epoll library
+2021-08-15 15:42:58 INFO  KqueueProvider:70 - Starting without optional kqueue library
+2021-08-15 15:42:58 INFO  DocumentationPluginsBootstrapper:93 - Documentation plugins bootstrapped
+2021-08-15 15:42:58 INFO  DocumentationPluginsBootstrapper:79 - Found 1 custom documentation plugin(s)
+2021-08-15 15:42:58 INFO  ApiListingReferenceScanner:44 - Scanning for api listing references
+2021-08-15 15:42:59 INFO  ScheduledAnnotationBeanPostProcessor:309 - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-08-15 15:42:59 INFO  TomcatWebServer:203 - Tomcat started on port(s): 8090 (http) with context path ''
+2021-08-15 15:42:59 INFO  Application:61 - Started Application in 4.429 seconds (JVM running for 5.137)

@@ -2,7 +2,6 @@ org\architect\enums\Sex.class
 org\n3r\idworker\Id.class
 org\n3r\idworker\strategy\DefaultRandomCodeStrategy.class
 org\n3r\idworker\utils\HttpReq.class
-org\architect\util\RedisOperator$1.class
 org\architect\enums\PayMethod.class
 org\n3r\idworker\Code.class
 org\n3r\idworker\strategy\FileLock.class

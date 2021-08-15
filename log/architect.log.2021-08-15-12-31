@@ -1,0 +1,13 @@
+2021-08-15 12:31:53 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-15 12:31:56 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-08-15 12:31:56 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 9960 (E:\mayuncode\aichitect-stage1\foodie-dev-api\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-08-15 12:31:56 INFO  Application:655 - The following profiles are active: dev
+2021-08-15 12:31:57 INFO  RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-15 12:31:57 INFO  RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-15 12:31:57 INFO  RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2021-08-15 12:31:57 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[org.architect]' package. Please check your configuration.
+2021-08-15 12:31:58 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8088 (http)
+2021-08-15 12:31:58 INFO  ServletWebServerApplicationContext:283 - Root WebApplicationContext: initialization completed in 1438 ms
+2021-08-15 12:31:59 INFO  WebMvcPropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2021-08-15 12:31:59 INFO  EpollProvider:68 - Starting without optional epoll library
+2021-08-15 12:31:59 INFO  KqueueProvider:70 - Starting without optional kqueue library

@@ -1,0 +1,6 @@
+2021-08-15 11:37:01 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyOrdersServiceImpl.getOrderStatusCounts====================
+2021-08-15 11:37:01 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.MyOrdersServiceImpl.getOrdersTrend====================
+2021-08-15 11:37:01 INFO  ServiceLogAspect:55 - ===========执行结束，耗时46毫秒============
+2021-08-15 11:37:01 INFO  ServiceLogAspect:55 - ===========执行结束，耗时81毫秒============
+2021-08-15 11:37:09 INFO  ServiceLogAspect:38 - =================开始执行 class org.architect.service.impl.center.CenterUserServiceImpl.queryUserInfo====================
+2021-08-15 11:37:09 INFO  ServiceLogAspect:55 - ===========执行结束，耗时3毫秒============

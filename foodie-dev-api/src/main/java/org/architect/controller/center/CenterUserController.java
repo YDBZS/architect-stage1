@@ -2,6 +2,7 @@ package org.architect.controller.center;
 
 import com.architect.pojo.Users;
 import com.architect.pojo.bo.center.CenterUserBO;
+import com.architect.pojo.vo.UsersVO;
 import com.google.common.collect.Maps;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -14,10 +15,7 @@ import org.architect.constant.Constant;
 import org.architect.controller.PassprotController;
 import org.architect.resource.FileUpload;
 import org.architect.service.center.CenterUserService;
-import org.architect.util.CookieUtils;
-import org.architect.util.DateUtil;
-import org.architect.util.JsonUtils;
-import org.architect.util.ReturnResult;
+import org.architect.util.*;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
@@ -48,9 +46,9 @@ public class CenterUserController {
     @Resource
     private CenterUserService centerUserService;
     @Resource
-    private PassprotController passprotController;
-    @Resource
     private FileUpload fileUpload;
+    @Resource
+    private DistributedSessionUtil distributedSessionUtil;
 
     @PostMapping("/update")
     @ApiOperation(value = "用户修改账户信息", httpMethod = Constant.INTERFACE_METHOD_POST)
@@ -67,10 +65,11 @@ public class CenterUserController {
         }
 
         Users userInfo = centerUserService.updateUserInfo(userId, centerUserBO);
-        Users setNull = passprotController.setNull(userInfo);
-        CookieUtils.setCookie(request, response, "user", JsonUtils.objectToJson(setNull), true);
+        // 增加令牌tocken，会整合进redis，分布式会话
+        UsersVO usersVO = distributedSessionUtil.convertUsersBO(userInfo);
 
-        // todo 后续要改，增加令牌tocken，会整合进redis，分布式会话
+//        userInfo = passprotController.setNull(userInfo);
+        CookieUtils.setCookie(request, response, "user", JsonUtils.objectToJson(usersVO), true);
 
         return ReturnResult.ok();
     }
@@ -138,10 +137,11 @@ public class CenterUserController {
         String finalUserFaceUrl = imageServerUrl + uploadPathPrefix + "?t=" + DateUtil.getCurrentDateString(DateUtil.DATE_PATTERN);
         Users users = centerUserService.updateUserFace(userId, finalUserFaceUrl);
 
-        users = passprotController.setNull(users);
-        CookieUtils.setCookie(request, response, "user", JsonUtils.objectToJson(users), true);
+        // 增加令牌tocken，会整合进redis，分布式会话
+        UsersVO usersVO = distributedSessionUtil.convertUsersBO(users);
+//        users = passprotController.setNull(users);
+        CookieUtils.setCookie(request, response, "user", JsonUtils.objectToJson(usersVO), true);
 
-        // todo 后续要改，增加令牌tocken，会整合进redis，分布式会话
 
         return ReturnResult.ok();
     }

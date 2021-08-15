@@ -3,6 +3,7 @@ package org.architect.controller;
 import com.architect.pojo.Users;
 import com.architect.pojo.bo.ShopcartBO;
 import com.architect.pojo.bo.UsersBO;
+import com.architect.pojo.vo.UsersVO;
 import com.google.common.collect.Lists;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -13,7 +14,6 @@ import org.architect.util.*;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import javax.security.auth.message.callback.PrivateKeyCallback;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
@@ -33,6 +33,8 @@ public class PassprotController {
     private UserService userService;
     @Resource
     private RedisOperator redisOperator;
+    @Resource
+    private DistributedSessionUtil distributedSessionUtil;
 
     @ApiOperation("校验用户名是否存在")
     @GetMapping("usernameIsExist")
@@ -75,8 +77,11 @@ public class PassprotController {
             return ReturnResult.errorMsg("两次密码输入不一致");
         }
         Users user = userService.createUser(usersBO);
-        Users setNull = setNull(user);
-        CookieUtils.setCookie(request, response, "user", JsonUtils.objectToJson(setNull), true);
+
+//        Users setNull = setNull(user);
+        UsersVO usersVO = distributedSessionUtil.convertUsersBO(user);
+
+        CookieUtils.setCookie(request, response, "user", JsonUtils.objectToJson(usersVO), true);
 
         return ReturnResult.ok(user);
     }
@@ -97,14 +102,14 @@ public class PassprotController {
             return ReturnResult.errorMsg("用户名或者密码错误");
         }
 
-        Users setNull = setNull(users);
-        CookieUtils.setCookie(request, response, "user", JsonUtils.objectToJson(setNull), true);
+        // 实现用户的Redis会话。
+        UsersVO usersVO = distributedSessionUtil.convertUsersBO(users);
+        CookieUtils.setCookie(request, response, "user", JsonUtils.objectToJson(usersVO), true);
 
-        // TODO 生成用户Token，存入redis会话
         // 同步购物车数据
         syncShopCartData(users.getId(), request, response);
 
-        return ReturnResult.ok(setNull);
+        return ReturnResult.ok(usersVO);
     }
 
     /**
@@ -202,10 +207,15 @@ public class PassprotController {
         CookieUtils.deleteCookie(request, response, "user");
 
         // 用户推出登录，需要清空购物车
+        // 清除前端存储购物车信息
         CookieUtils.deleteCookie(request, response, Constant.FOODIE_SHOPCART);
-        // TODO 分布式会话中需要清除用户数据
+        // 清除后端购物车信息
+
+        // 用户退出登录，需要清除分布式会话中的用户数据
+        redisOperator.del(Constant.REDIS_USER_TOKEN + ":" + userId);
 
         return ReturnResult.ok();
     }
+
 
 }

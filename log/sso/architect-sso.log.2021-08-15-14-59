@@ -1,0 +1,25 @@
+2021-08-15 14:59:08 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-15 14:59:13 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-08-15 14:59:13 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 6756 (E:\mayuncode\aichitect-stage1\foodie-sso\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-08-15 14:59:13 INFO  Application:655 - The following profiles are active: dev
+2021-08-15 14:59:14 INFO  RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-15 14:59:14 INFO  RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-15 14:59:14 INFO  RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2021-08-15 14:59:14 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.architect.sso]' package. Please check your configuration.
+2021-08-15 14:59:14 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8090 (http)
+2021-08-15 14:59:14 INFO  ServletWebServerApplicationContext:283 - Root WebApplicationContext: initialization completed in 1273 ms
+2021-08-15 14:59:16 INFO  ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 14:59:16 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-08-15 14:59:16 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-08-15 14:59:16 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-08-15 14:59:16 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2021-08-15 14:59:16 INFO  UserDetailsServiceAutoConfiguration:86 - 
+
+Using generated security password: 78e95079-2167-436b-a910-345bbe35db89
+
+2021-08-15 14:59:16 INFO  DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74b97416, org.springframework.security.web.context.SecurityContextPersistenceFilter@33e50ff2, org.springframework.security.web.header.HeaderWriterFilter@33ebe4f0, org.springframework.security.web.csrf.CsrfFilter@bfe47a8, org.springframework.security.web.authentication.logout.LogoutFilter@5c76fce4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@c11332b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@59933644, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@74707df8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@473847fb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@704d3b00, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5731caaf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12c76d6e, org.springframework.security.web.session.SessionManagementFilter@29147c12, org.springframework.security.web.access.ExceptionTranslationFilter@75ed7512, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@39a7eca5]
+2021-08-15 14:59:16 INFO  EpollProvider:68 - Starting without optional epoll library
+2021-08-15 14:59:16 INFO  KqueueProvider:70 - Starting without optional kqueue library
+2021-08-15 14:59:17 INFO  ScheduledAnnotationBeanPostProcessor:309 - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-08-15 14:59:17 INFO  TomcatWebServer:203 - Tomcat started on port(s): 8090 (http) with context path ''
+2021-08-15 14:59:17 INFO  Application:61 - Started Application in 4.57 seconds (JVM running for 5.3)

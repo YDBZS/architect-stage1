@@ -128,21 +128,23 @@ public class RedisOperator {
 	public List<Object> batchGet(List<String> keys) {
 
 //		nginx -> keepalive
+//		之前讲Nignx的时间提到keepalived，这个也是为了提高用户的吞吐量，就是请求的一个吞吐量。因为你的用户在每一次进行请求的时候， 你都会存在一个打开和关闭连接的一个消耗，
+//		那么这个损耗为了减少到最低，所以就存在了keepalived，那么在这个一段时间内如果说用户一直在请求咱们的一个接口，我们就会以一种常连接的形式保证用户可以一直在进行一个
+//		源源不断的访问。这个时间用户的体验性就更高了。并且吞吐量也会提高。
+
 //		redis -> pipeline
+//		redis也是同样的一个道理，在使用管道pipeline的时候，那么这个管道里面其实是包含了多次不同的一些查询，其实也就是不同的key，也就是说把这个key放到管道里面去操作的话，
+//		那么其实他只有一开始在建立管道的时候会有一次损耗，其实在最后这个管道也是会关闭的，那么相应的他肯定是比一个一个循环的去查询更加的优化，他的一个性能和他的吞吐量比一
+//		般的要来的更高，在这种情况下是完全可以使用这个batchGet，也就是使用管道的方式去做的。
 
-		List<Object> result = redisTemplate.executePipelined(new RedisCallback<String>() {
-			@Override
-			public String doInRedis(RedisConnection connection) throws DataAccessException {
-				StringRedisConnection src = (StringRedisConnection)connection;
+		return redisTemplate.executePipelined((RedisCallback<String>) connection -> {
+			StringRedisConnection src = (StringRedisConnection)connection;
 
-				for (String k : keys) {
-					src.get(k);
-				}
-				return null;
+			for (String k : keys) {
+				src.get(k);
 			}
+			return null;
 		});
-
-		return result;
 	}
 
 

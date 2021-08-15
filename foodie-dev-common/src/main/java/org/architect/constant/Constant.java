@@ -45,4 +45,15 @@ public interface Constant {
             + File.separator +
             "userface";
 
+    // 用户登录Token
+    String REDIS_USER_TOKEN = "redis_user_token";
+
+    // 单点登录CAS生成全局票据服务端会话标识
+    String REDIS_USER_TICKET = "redis_user_ticket";
+
+    // 单点登录CAS生成临时票据服务端会话标识
+    String REDIS_TMP_TICKET = "redis_tmp_ticket";
+
+    String COOKIE_USER_TICKET = "cookie_user_ticket";
+
 }

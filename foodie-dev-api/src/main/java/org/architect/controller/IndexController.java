@@ -108,6 +108,7 @@ public class IndexController {
             if (list != null && list.size() > 0) {
                 redisOperator.set("subCat:" + rootCatId, JsonUtils.objectToJson(list));
             } else {
+                // 为解决缓存穿透问题，如果是查询出来列表为空，也放入缓存，只不过设置过期时间五分钟。
                 redisOperator.set("subCat:" + rootCatId, JsonUtils.objectToJson(list), 5*60);
             }
         } else {

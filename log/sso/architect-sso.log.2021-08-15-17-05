@@ -1,0 +1,4 @@
+2021-08-15 17:05:24 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-08-15 17:05:24 INFO  DispatcherServlet:547 - Completed initialization in 5 ms
+2021-08-15 17:05:33 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2021-08-15 17:05:34 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.

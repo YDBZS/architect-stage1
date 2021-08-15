@@ -22,6 +22,7 @@ com\architect\pojo\vo\SubCategoryVO.class
 com\architect\pojo\ItemsComments.class
 com\architect\pojo\vo\ItemCommentVO.class
 com\architect\pojo\bo\OrderItemsCommentBO.class
+com\architect\pojo\vo\UsersVO.class
 com\architect\pojo\vo\MyOrdersVO.class
 com\architect\pojo\vo\OrderStatusCountsVO$OrderStatusCountsVOBuilder.class
 com\architect\pojo\vo\OrderVO.class

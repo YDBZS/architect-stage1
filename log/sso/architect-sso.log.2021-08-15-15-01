@@ -1,0 +1,24 @@
+2021-08-15 15:01:10 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-08-15 15:01:10 INFO  DispatcherServlet:547 - Completed initialization in 5 ms
+2021-08-15 15:01:40 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:01:43 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-08-15 15:01:43 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 16820 (E:\mayuncode\aichitect-stage1\foodie-sso\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-08-15 15:01:43 INFO  Application:655 - The following profiles are active: dev
+2021-08-15 15:01:43 INFO  RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-15 15:01:43 INFO  RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-08-15 15:01:43 INFO  RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2021-08-15 15:01:44 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.architect.sso]' package. Please check your configuration.
+2021-08-15 15:01:44 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8090 (http)
+2021-08-15 15:01:44 INFO  ServletWebServerApplicationContext:283 - Root WebApplicationContext: initialization completed in 1106 ms
+2021-08-15 15:01:45 INFO  ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:01:45 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-08-15 15:01:45 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-08-15 15:01:45 INFO  MapperCacheDisabler:60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-08-15 15:01:45 INFO  MapperCacheDisabler:83 - Clear EntityHelper entityTableMap cache.
+2021-08-15 15:01:45 INFO  EpollProvider:68 - Starting without optional epoll library
+2021-08-15 15:01:45 INFO  KqueueProvider:70 - Starting without optional kqueue library
+2021-08-15 15:01:46 INFO  ScheduledAnnotationBeanPostProcessor:309 - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2021-08-15 15:01:46 INFO  TomcatWebServer:203 - Tomcat started on port(s): 8090 (http) with context path ''
+2021-08-15 15:01:47 INFO  Application:61 - Started Application in 3.938 seconds (JVM running for 4.601)
+2021-08-15 15:01:53 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-08-15 15:01:53 INFO  DispatcherServlet:547 - Completed initialization in 4 ms
