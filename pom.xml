@@ -19,6 +19,7 @@
             foodie-dev-api
         </module>
         <module>foodie-sso</module>
+        <module>foofie-dev-search</module>
     </modules>
 
     <!--

@@ -1,0 +1,2 @@
+2021-08-14 06:42:30 INFO  ConnectionWatchdog:171 - Reconnecting, last destination was /192.168.52.201:6379
+2021-08-14 06:42:32 INFO  ReconnectionHandler:185 - Reconnected to 192.168.52.201:6379, Channel channel=0x973519b3, /192.168.52.1:55007 -> /192.168.52.201:6379

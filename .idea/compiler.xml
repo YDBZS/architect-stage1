@@ -8,10 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="foodie-dev-pojo" />
-        <module name="foodie-dev-service" />
-        <module name="foodie-dev-common" />
+        <module name="foofie-dev-search" />
         <module name="foodie-dev-api" />
         <module name="foodie-dev-mapper" />
+        <module name="foodie-dev-service" />
+        <module name="foodie-dev-common" />
         <module name="foodie-sso" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="foodie-dev-pojo" target="8" />
       <module name="foodie-dev-service" target="8" />
       <module name="foodie-sso" target="8" />
+      <module name="foofie-dev-search" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,6 +35,7 @@
       <module name="foodie-dev-pojo" options="-parameters" />
       <module name="foodie-dev-service" options="-parameters" />
       <module name="foodie-sso" options="-parameters" />
+      <module name="foofie-dev-search" options="-parameters" />
     </option>
   </component>
 </project>

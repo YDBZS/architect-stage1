@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/foodie-dev-pojo/foodie-dev-pojo.iml" filepath="$PROJECT_DIR$/foodie-dev-pojo/foodie-dev-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/foodie-dev-service/foodie-dev-service.iml" filepath="$PROJECT_DIR$/foodie-dev-service/foodie-dev-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/foodie-sso/foodie-sso.iml" filepath="$PROJECT_DIR$/foodie-sso/foodie-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/foofie-dev-search/foofie-dev-search.iml" filepath="$PROJECT_DIR$/foofie-dev-search/foofie-dev-search.iml" />
     </modules>
   </component>
 </project>

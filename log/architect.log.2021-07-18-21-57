@@ -1,0 +1,4 @@
+2021-07-18 21:57:13 INFO  ThreadPoolTaskScheduler:218 - Shutting down ExecutorService 'taskScheduler'
+2021-07-18 21:57:13 INFO  ThreadPoolTaskExecutor:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-18 21:57:13 INFO  HikariDataSource:350 - DateSourceHikariCP - Shutdown initiated...
+2021-07-18 21:57:13 INFO  HikariDataSource:352 - DateSourceHikariCP - Shutdown completed.

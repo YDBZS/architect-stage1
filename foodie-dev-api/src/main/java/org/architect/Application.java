@@ -15,6 +15,8 @@ import tk.mybatis.spring.annotation.MapperScan;
  * @author 多宝
  * @since 2021/3/7 16:31
  */
+// 去除因引入SpringSecurity导致请求后端接口需要输入账号密码
+// 这个是由于SpringBoot的自动装配导致的。
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
 // 扫描Mybatis通用的mapper所在的包
 @MapperScan(basePackages = {"com.architect.mapper"})
