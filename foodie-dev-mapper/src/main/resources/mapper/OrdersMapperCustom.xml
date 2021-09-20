@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.architect.mapper.OrdersMapperCustom">
+<mapper namespace="org.architect.mapper.OrdersMapperCustom">
 
 
-    <resultMap id="myOrdersVO" type="com.architect.pojo.vo.MyOrdersVO">
+    <resultMap id="myOrdersVO" type="org.architect.pojo.vo.MyOrdersVO">
         <id column="orderId" property="orderId" jdbcType="INTEGER"/>
         <result column="createdTime" property="createdTime" jdbcType="VARCHAR"/>
         <result column="payMethod" property="payMethod" jdbcType="INTEGER"/>
@@ -11,7 +11,7 @@
         <result column="postAmount" property="postAmount"/>
         <result column="orderStatus" property="orderStatus"/>
         <result column="isComment" property="isComment"/>
-        <collection property="subOrderItemList" select="getSubItems" column="orderId" ofType="com.architect.pojo.vo.MySubOrderItemVO">
+        <collection property="subOrderItemList" select="getSubItems" column="orderId" ofType="org.architect.pojo.vo.MySubOrderItemVO">
             <id column="itemId" property="itemId" jdbcType="INTEGER"/>
             <result column="itemName" property="itemName" jdbcType="VARCHAR"/>
             <result column="itemImg" property="itemImg" jdbcType="INTEGER"/>
@@ -48,7 +48,7 @@
             od.updated_time
     </select>
     
-    <select id="getSubItems" parameterType="string" resultType="com.architect.pojo.vo.MySubOrderItemVO">
+    <select id="getSubItems" parameterType="string" resultType="org.architect.pojo.vo.MySubOrderItemVO">
         select
             oi.item_id itemId,
             oi.item_name itemName,
@@ -117,7 +117,7 @@
     </select>
 
 
-    <select id="getMyOrderTrend" parameterType="map" resultType="com.architect.pojo.OrderStatus">
+    <select id="getMyOrderTrend" parameterType="map" resultType="org.architect.pojo.OrderStatus">
         SELECT
             os.order_id as orderId,
             os.order_status as orderStatus,

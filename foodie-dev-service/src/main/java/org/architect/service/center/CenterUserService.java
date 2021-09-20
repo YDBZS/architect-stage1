@@ -1,7 +1,7 @@
 package org.architect.service.center;
 
-import com.architect.pojo.Users;
-import com.architect.pojo.bo.center.CenterUserBO;
+import org.architect.pojo.Users;
+import org.architect.pojo.bo.center.CenterUserBO;
 
 /**
  * 个人中心

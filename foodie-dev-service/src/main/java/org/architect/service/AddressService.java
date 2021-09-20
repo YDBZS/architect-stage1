@@ -1,7 +1,7 @@
 package org.architect.service;
 
-import com.architect.pojo.UserAddress;
-import com.architect.pojo.bo.AddressBO;
+import org.architect.pojo.UserAddress;
+import org.architect.pojo.bo.AddressBO;
 
 import java.util.List;
 

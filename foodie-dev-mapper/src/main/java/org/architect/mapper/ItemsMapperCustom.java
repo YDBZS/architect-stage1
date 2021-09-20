@@ -1,0 +1,59 @@
+package org.architect.mapper;
+
+
+import org.architect.pojo.vo.ItemCommentVO;
+import org.architect.pojo.vo.SearchItemsVO;
+import org.architect.pojo.vo.ShopcartVO;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
+import java.util.Map;
+
+public interface ItemsMapperCustom {
+
+    /**
+     * 查询商品评价
+     *
+     * @since 2021/5/8 2:51
+     * @return java.util.List<com.architect.pojo.vo.ItemCommentVO>
+     * @param map  参数
+     */
+    List<ItemCommentVO> queryItemComments(@Param("paramsMap") Map<String, Object> map);
+
+    /**
+     * 查询商品列表
+     *
+     * @param map 参数Map
+     * @return java.util.List<com.architect.pojo.vo.SearchItemsVO>
+     * @since 2021/5/8 2:50
+     */
+    List<SearchItemsVO> searchItems(@Param("paramsMap") Map<String, Object> map);
+
+    /**
+     * 根据三级分类查询商品列表
+     *
+     * @since 2021/5/16 10:47
+     * @return java.util.List<com.architect.pojo.vo.SearchItemsVO>
+     * @param map    参数Map
+     */
+    List<SearchItemsVO> searchItemsByThirdCat(@Param("paramsMap") Map<String, Object> map);
+
+    /**
+     * 根据商品规格ID集合查询购物车最新数据
+     *
+     * @since 2021/5/16 14:01
+     * @return java.util.List<com.architect.pojo.vo.ShopcartVO>
+     * @param specIds   商品规格ID集合
+     */
+    List<ShopcartVO> queryItemBySpecIds(@Param("paramsList") List<String> specIds);
+
+    /**
+     * 乐观锁形式扣减商品规格库存
+     *
+     * @since 2021/5/23 15:47
+     * @return int
+     * @param specId        规格ID
+     * @param pendingCounts 扣减商品规格数量
+     */
+    int decreaseItemSpecStock(@Param("specId") String specId,@Param("pendingCounts") int pendingCounts);
+}

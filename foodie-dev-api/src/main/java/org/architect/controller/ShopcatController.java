@@ -1,6 +1,6 @@
 package org.architect.controller;
 
-import com.architect.pojo.bo.ShopcartBO;
+import org.architect.pojo.bo.ShopcartBO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

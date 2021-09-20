@@ -1,7 +1,7 @@
 package org.architect.service.impl;
 
-import com.architect.mapper.StuMapper;
-import com.architect.pojo.Stu;
+import org.architect.mapper.StuMapper;
+import org.architect.pojo.Stu;
 import org.architect.service.StuService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;

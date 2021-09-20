@@ -8,20 +8,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="foodie-dev-pojo" />
-        <module name="foofie-dev-search" />
         <module name="foodie-dev-api" />
         <module name="foodie-dev-mapper" />
         <module name="foodie-dev-service" />
         <module name="foodie-dev-common" />
+        <module name="foodie-dev-search" />
         <module name="foodie-sso" />
+        <module name="foodie-dev-es-resthighlevelclient" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="foodie-dev" target="1.8" />
       <module name="foodie-dev-api" target="8" />
       <module name="foodie-dev-common" target="8" />
+      <module name="foodie-dev-es-resthighlevelclient" target="8" />
       <module name="foodie-dev-mapper" target="8" />
       <module name="foodie-dev-pojo" target="8" />
+      <module name="foodie-dev-search" target="8" />
       <module name="foodie-dev-service" target="8" />
       <module name="foodie-sso" target="8" />
       <module name="foofie-dev-search" target="8" />
@@ -31,8 +34,10 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="foodie-dev-api" options="-parameters" />
       <module name="foodie-dev-common" options="-parameters" />
+      <module name="foodie-dev-es-resthighlevelclient" options="-parameters" />
       <module name="foodie-dev-mapper" options="-parameters" />
       <module name="foodie-dev-pojo" options="-parameters" />
+      <module name="foodie-dev-search" options="-parameters" />
       <module name="foodie-dev-service" options="-parameters" />
       <module name="foodie-sso" options="-parameters" />
       <module name="foofie-dev-search" options="-parameters" />

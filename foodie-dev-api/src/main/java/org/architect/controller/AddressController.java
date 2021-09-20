@@ -1,6 +1,6 @@
 package org.architect.controller;
 
-import com.architect.pojo.bo.AddressBO;
+import org.architect.pojo.bo.AddressBO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang3.StringUtils;

@@ -1,11 +1,11 @@
 package org.architect.controller;
 
-import com.architect.pojo.Items;
-import com.architect.pojo.ItemsImg;
-import com.architect.pojo.ItemsParam;
-import com.architect.pojo.ItemsSpec;
-import com.architect.pojo.vo.ItemInfoVO;
-import com.architect.pojo.vo.ShopcartVO;
+import org.architect.pojo.Items;
+import org.architect.pojo.ItemsImg;
+import org.architect.pojo.ItemsParam;
+import org.architect.pojo.ItemsSpec;
+import org.architect.pojo.vo.ItemInfoVO;
+import org.architect.pojo.vo.ShopcartVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;

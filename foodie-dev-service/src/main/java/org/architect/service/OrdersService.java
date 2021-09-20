@@ -1,9 +1,9 @@
 package org.architect.service;
 
-import com.architect.pojo.OrderStatus;
-import com.architect.pojo.bo.ShopcartBO;
-import com.architect.pojo.bo.SubmitOrderBo;
-import com.architect.pojo.vo.OrderVO;
+import org.architect.pojo.OrderStatus;
+import org.architect.pojo.bo.ShopcartBO;
+import org.architect.pojo.bo.SubmitOrderBo;
+import org.architect.pojo.vo.OrderVO;
 
 import java.util.List;
 

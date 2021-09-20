@@ -1,0 +1,27 @@
+2021-09-20 17:37:08 INFO  Version:21 - HV000001: Hibernate Validator 6.0.21.Final
+2021-09-20 17:37:08 INFO  Application:55 - Starting Application on DESKTOP-FJ2BM4S with PID 21040 (E:\mayuncode\aichitect-stage1\foodie-dev-api\target\classes started by G-Dragon in E:\mayuncode\aichitect-stage1)
+2021-09-20 17:37:08 INFO  Application:655 - The following profiles are active: dev
+2021-09-20 17:37:10 WARN  ClassPathMapperScanner:146 - No MyBatis mapper was found in '[com.architect.mapper]' package. Please check your configuration.
+2021-09-20 17:37:10 WARN  ClassPathMapperScanner:146 - No MyBatis mapper was found in '[org.architect]' package. Please check your configuration.
+2021-09-20 17:37:10 INFO  RepositoryConfigurationDelegate:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-20 17:37:10 INFO  RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-20 17:37:10 INFO  RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2021-09-20 17:37:10 WARN  ClassPathMapperScanner:44 - No MyBatis mapper was found in '[org.architect]' package. Please check your configuration.
+2021-09-20 17:37:11 INFO  TomcatWebServer:91 - Tomcat initialized with port(s): 8088 (http)
+2021-09-20 17:37:11 INFO  ServletWebServerApplicationContext:283 - Root WebApplicationContext: initialization completed in 2518 ms
+2021-09-20 17:37:11 WARN  AnnotationConfigServletWebServerApplicationContext:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderJob': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ordersServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'addressServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.architect.mapper.UserAddressMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2021-09-20 17:37:12 ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'org.architect.mapper.UserAddressMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.architect.mapper.UserAddressMapper' in your configuration.
+

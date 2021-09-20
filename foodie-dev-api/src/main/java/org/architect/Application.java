@@ -19,7 +19,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 // 这个是由于SpringBoot的自动装配导致的。
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
 // 扫描Mybatis通用的mapper所在的包
-@MapperScan(basePackages = {"com.architect.mapper"})
+@MapperScan(basePackages = {"org.architect.mapper"})
 @ComponentScan(basePackages = {"org.n3r.idworker", "org.architect"})
 @EnableTransactionManagement
 @EnableScheduling

@@ -1,7 +1,7 @@
 package org.architect.sso.util;
 
-import com.architect.pojo.Users;
-import com.architect.pojo.vo.UsersVO;
+import org.architect.pojo.Users;
+import org.architect.pojo.vo.UsersVO;
 import org.architect.constant.Constant;
 import org.architect.util.RedisOperator;
 import org.springframework.beans.BeanUtils;

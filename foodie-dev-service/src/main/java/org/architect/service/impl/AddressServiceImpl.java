@@ -1,8 +1,8 @@
 package org.architect.service.impl;
 
-import com.architect.mapper.UserAddressMapper;
-import com.architect.pojo.UserAddress;
-import com.architect.pojo.bo.AddressBO;
+import org.architect.mapper.UserAddressMapper;
+import org.architect.pojo.UserAddress;
+import org.architect.pojo.bo.AddressBO;
 import org.architect.enums.YesOrNo;
 import org.architect.service.AddressService;
 import org.n3r.idworker.Sid;

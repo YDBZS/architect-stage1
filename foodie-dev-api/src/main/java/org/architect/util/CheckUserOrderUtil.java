@@ -1,6 +1,6 @@
 package org.architect.util;
 
-import com.architect.pojo.Orders;
+import org.architect.pojo.Orders;
 import org.architect.service.center.MyOrdersService;
 import org.springframework.stereotype.Component;
 

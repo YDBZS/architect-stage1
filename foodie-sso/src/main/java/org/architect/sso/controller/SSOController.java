@@ -1,7 +1,7 @@
 package org.architect.sso.controller;
 
-import com.architect.pojo.Users;
-import com.architect.pojo.vo.UsersVO;
+import org.architect.pojo.Users;
+import org.architect.pojo.vo.UsersVO;
 import lombok.SneakyThrows;
 import org.apache.commons.lang3.StringUtils;
 import org.architect.constant.Constant;

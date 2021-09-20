@@ -1,8 +1,8 @@
 package org.architect.controller.center;
 
-import com.architect.pojo.Users;
-import com.architect.pojo.bo.center.CenterUserBO;
-import com.architect.pojo.vo.UsersVO;
+import org.architect.pojo.Users;
+import org.architect.pojo.bo.center.CenterUserBO;
+import org.architect.pojo.vo.UsersVO;
 import com.google.common.collect.Maps;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -12,7 +12,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.architect.constant.Constant;
-import org.architect.controller.PassprotController;
 import org.architect.resource.FileUpload;
 import org.architect.service.center.CenterUserService;
 import org.architect.util.*;

@@ -1,7 +1,7 @@
 package org.architect.service.center;
 
-import com.architect.pojo.OrderItems;
-import com.architect.pojo.bo.OrderItemsCommentBO;
+import org.architect.pojo.OrderItems;
+import org.architect.pojo.bo.OrderItemsCommentBO;
 import org.architect.util.PagedGridResult;
 
 import java.util.List;

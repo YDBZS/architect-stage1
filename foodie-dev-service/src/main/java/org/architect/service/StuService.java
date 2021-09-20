@@ -1,6 +1,6 @@
 package org.architect.service;
 
-import com.architect.pojo.Stu;
+import org.architect.pojo.Stu;
 
 /**
  * 学生信息数据库测试

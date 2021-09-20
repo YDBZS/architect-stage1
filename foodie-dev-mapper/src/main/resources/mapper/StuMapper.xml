@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.architect.mapper.StuMapper" >
-  <resultMap id="BaseResultMap" type="com.architect.pojo.Stu" >
+<mapper namespace="org.architect.mapper.StuMapper" >
+  <resultMap id="BaseResultMap" type="org.architect.pojo.Stu" >
     <!--
       WARNING - @mbg.generated
     -->

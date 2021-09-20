@@ -1,6 +1,6 @@
 package org.architect.controller.center;
 
-import com.architect.pojo.vo.OrderStatusCountsVO;
+import org.architect.pojo.vo.OrderStatusCountsVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;

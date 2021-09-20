@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.architect.mapper.ItemsMapperCustom" >
+<mapper namespace="org.architect.mapper.ItemsMapperCustom" >
   
-  <select id="queryItemComments" parameterType="map" resultType="com.architect.pojo.vo.ItemCommentVO">
+  <select id="queryItemComments" parameterType="map" resultType="org.architect.pojo.vo.ItemCommentVO">
     select ic.comment_level commentLevel,
            ic.content,
            ic.sepc_name specName,
@@ -23,7 +23,7 @@
     </if>
   </select>
 
-    <select id="searchItems" parameterType="map" resultType="com.architect.pojo.vo.SearchItemsVO">
+    <select id="searchItems" parameterType="map" resultType="org.architect.pojo.vo.SearchItemsVO">
         select i.id          itemId,
                i.item_name   itemName,
                i.sell_counts sellCounts,
@@ -65,7 +65,7 @@
 <!--     p : 根据价格排序-->
 <!--     @quot;  转义单引号  -->
 
-    <select id="searchItemsByThirdCat" parameterType="map" resultType="com.architect.pojo.vo.SearchItemsVO">
+    <select id="searchItemsByThirdCat" parameterType="map" resultType="org.architect.pojo.vo.SearchItemsVO">
         select i.id          itemId,
             i.item_name   itemName,
             i.sell_counts sellCounts,
@@ -102,7 +102,7 @@
         </choose>
     </select>
 
-    <select id="queryItemBySpecIds" parameterType="list" resultType="com.architect.pojo.vo.ShopcartVO">
+    <select id="queryItemBySpecIds" parameterType="list" resultType="org.architect.pojo.vo.ShopcartVO">
         select
             t_items.id itemId,
             t_items.item_name itemName,

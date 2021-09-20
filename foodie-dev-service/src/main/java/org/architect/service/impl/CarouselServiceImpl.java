@@ -1,7 +1,7 @@
 package org.architect.service.impl;
 
-import com.architect.mapper.CarouselMapper;
-import com.architect.pojo.Carousel;
+import org.architect.mapper.CarouselMapper;
+import org.architect.pojo.Carousel;
 import org.architect.service.CarouselService;
 import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.entity.Example;

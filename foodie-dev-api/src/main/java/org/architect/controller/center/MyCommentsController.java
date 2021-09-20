@@ -1,8 +1,8 @@
 package org.architect.controller.center;
 
-import com.architect.pojo.OrderItems;
-import com.architect.pojo.Orders;
-import com.architect.pojo.bo.OrderItemsCommentBO;
+import org.architect.pojo.OrderItems;
+import org.architect.pojo.Orders;
+import org.architect.pojo.bo.OrderItemsCommentBO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;

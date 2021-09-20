@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.architect.mapper.ItemsCommentsMapperCustom">
+<mapper namespace="org.architect.mapper.ItemsCommentsMapperCustom">
 
     <select id="saveComments" parameterType="map">
         insert into
@@ -35,7 +35,7 @@
     </select>
     
     
-    <resultMap id="myComments" type="com.architect.pojo.vo.MyCommentVO">
+    <resultMap id="myComments" type="org.architect.pojo.vo.MyCommentVO">
         <id column="commentId" property="commentId"/>
         <result column="content" property="content"/>
         <result column="createdTime" property="createdTime"/>

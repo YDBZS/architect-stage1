@@ -1,9 +1,8 @@
 package org.architect.controller;
 
-import com.architect.pojo.Carousel;
-import com.architect.pojo.Category;
-import com.architect.pojo.vo.CategoryVO;
-import com.google.common.collect.Lists;
+import org.architect.pojo.Carousel;
+import org.architect.pojo.Category;
+import org.architect.pojo.vo.CategoryVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -20,7 +19,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
-import java.util.ArrayList;
 import java.util.List;
 
 /**

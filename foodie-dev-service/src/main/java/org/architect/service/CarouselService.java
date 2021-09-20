@@ -1,6 +1,6 @@
 package org.architect.service;
 
-import com.architect.pojo.Carousel;
+import org.architect.pojo.Carousel;
 
 import java.util.List;
 

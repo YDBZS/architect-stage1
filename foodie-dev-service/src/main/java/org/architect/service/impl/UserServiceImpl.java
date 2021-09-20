@@ -1,8 +1,8 @@
 package org.architect.service.impl;
 
-import com.architect.mapper.UsersMapper;
-import com.architect.pojo.Users;
-import com.architect.pojo.bo.UsersBO;
+import org.architect.mapper.UsersMapper;
+import org.architect.pojo.Users;
+import org.architect.pojo.bo.UsersBO;
 import org.architect.constant.Constant;
 import org.architect.enums.Sex;
 import org.architect.service.UserService;

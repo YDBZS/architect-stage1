@@ -1,9 +1,9 @@
 package org.architect.controller;
 
-import com.architect.pojo.bo.ShopcartBO;
-import com.architect.pojo.bo.SubmitOrderBo;
-import com.architect.pojo.vo.MerchantOrdersVO;
-import com.architect.pojo.vo.OrderVO;
+import org.architect.pojo.bo.ShopcartBO;
+import org.architect.pojo.bo.SubmitOrderBo;
+import org.architect.pojo.vo.MerchantOrdersVO;
+import org.architect.pojo.vo.OrderVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

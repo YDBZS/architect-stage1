@@ -1,9 +1,9 @@
 package org.architect.controller;
 
-import com.architect.pojo.Users;
-import com.architect.pojo.bo.ShopcartBO;
-import com.architect.pojo.bo.UsersBO;
-import com.architect.pojo.vo.UsersVO;
+import org.architect.pojo.Users;
+import org.architect.pojo.bo.ShopcartBO;
+import org.architect.pojo.bo.UsersBO;
+import org.architect.pojo.vo.UsersVO;
 import com.google.common.collect.Lists;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

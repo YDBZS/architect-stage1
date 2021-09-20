@@ -1,10 +1,10 @@
 package org.architect.service.impl;
 
-import com.architect.mapper.CategoryMapper;
-import com.architect.mapper.CategoryMapperCustom;
-import com.architect.pojo.Category;
-import com.architect.pojo.vo.CategoryVO;
-import com.architect.pojo.vo.NewItemsVO;
+import org.architect.mapper.CategoryMapper;
+import org.architect.mapper.CategoryMapperCustom;
+import org.architect.pojo.Category;
+import org.architect.pojo.vo.CategoryVO;
+import org.architect.pojo.vo.NewItemsVO;
 import com.google.common.collect.Maps;
 import org.architect.service.CategoryService;
 import org.springframework.stereotype.Service;

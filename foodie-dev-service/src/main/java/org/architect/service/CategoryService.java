@@ -1,8 +1,8 @@
 package org.architect.service;
 
-import com.architect.pojo.Category;
-import com.architect.pojo.vo.CategoryVO;
-import com.architect.pojo.vo.NewItemsVO;
+import org.architect.pojo.Category;
+import org.architect.pojo.vo.CategoryVO;
+import org.architect.pojo.vo.NewItemsVO;
 
 import java.util.List;
 

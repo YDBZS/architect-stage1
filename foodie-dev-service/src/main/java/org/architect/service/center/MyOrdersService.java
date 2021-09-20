@@ -1,7 +1,7 @@
 package org.architect.service.center;
 
-import com.architect.pojo.Orders;
-import com.architect.pojo.vo.OrderStatusCountsVO;
+import org.architect.pojo.Orders;
+import org.architect.pojo.vo.OrderStatusCountsVO;
 import org.architect.util.PagedGridResult;
 
 /**
