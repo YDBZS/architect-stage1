@@ -1,6 +1,10 @@
 package com.es.test;
 
 
+import com.google.common.collect.Lists;
+import org.architect.elasticsearch.Application;
+import org.architect.elasticsearch.pojo.Student;
+import org.architect.util.collection.ArchitectCollectionUtil;
 import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.index.query.QueryBuilders;
