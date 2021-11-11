@@ -1,0 +1,26 @@
+server:
+  port: 8088
+spring:
+  datasource: # 数据源的相关配置
+    url: jdbc:mysql://localhost:3306/foodie-shop?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    password: 123456
+  redis:
+# Redis单机单实例
+    database: 0
+    host: 192.168.52.200
+    port: 6379
+    password: 123456
+# Redis哨兵模式
+#    database: 1
+#    password: 123456
+#    sentinel:
+#      master: ydbzs-master                                                                      # 指明主从里面的master是谁，他的name是什么
+#      nodes: 192.168.52.200:26379,192.168.52.201:26379,192.168.52.202:26379                     # 定义所有哨兵的节点，格式是ip外加端口号，端口号是哨兵的端口号，
+# Redis集群
+#    password: 123456
+#    cluster:
+#      nodes: 192.168.52.201:6379,192.168.52.202:6379,192.168.52.203:6379,192.168.52.204:6379,192.168.52.205:6379,192.168.52.206:6379
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

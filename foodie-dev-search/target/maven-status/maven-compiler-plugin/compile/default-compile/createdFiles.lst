@@ -1,0 +1,3 @@
+org\architect\elasticsearch\ESConfig.class
+org\architect\elasticsearch\Application.class
+org\architect\elasticsearch\pojo\Student.class

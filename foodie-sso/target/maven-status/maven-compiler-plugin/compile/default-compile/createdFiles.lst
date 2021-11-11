@@ -1,0 +1,5 @@
+org\architect\sso\config\Swagger2.class
+org\architect\sso\controller\SSOController.class
+org\architect\sso\config\CorsConfig.class
+org\architect\sso\Application.class
+org\architect\sso\util\DistributedSessionUtil.class

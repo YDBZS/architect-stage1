@@ -1,8 +1,5 @@
 package org.architect.controller.center;
 
-import org.architect.pojo.Users;
-import org.architect.pojo.bo.center.CenterUserBO;
-import org.architect.pojo.vo.UsersVO;
 import com.google.common.collect.Maps;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -12,6 +9,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.architect.constant.Constant;
+import org.architect.pojo.Users;
+import org.architect.pojo.bo.center.CenterUserBO;
+import org.architect.pojo.vo.UsersVO;
 import org.architect.resource.FileUpload;
 import org.architect.service.center.CenterUserService;
 import org.architect.util.*;
@@ -133,7 +133,8 @@ public class CenterUserController {
         String imageServerUrl = fileUpload.getImageServerUrl();
 
         // 由于浏览器可能出现缓存的情况，所以我们需要加上时间戳来保证更新后的图片可以即时刷新
-        String finalUserFaceUrl = imageServerUrl + uploadPathPrefix + "?t=" + DateUtil.getCurrentDateString(DateUtil.DATE_PATTERN);
+        String finalUserFaceUrl =
+                imageServerUrl + uploadPathPrefix + "?t=" + DateUtil.getCurrentDateString(DateUtil.DATE_PATTERN);
         Users users = centerUserService.updateUserFace(userId, finalUserFaceUrl);
 
         // 增加令牌tocken，会整合进redis，分布式会话

@@ -13,6 +13,7 @@
         <module name="foodie-dev-service" />
         <module name="foodie-dev-common" />
         <module name="foodie-dev-search" />
+        <module name="OSS" />
         <module name="foodie-sso" />
         <module name="foodie-dev-es-resthighlevelclient" />
       </profile>
@@ -28,10 +29,12 @@
       <module name="foodie-dev-service" target="8" />
       <module name="foodie-sso" target="8" />
       <module name="foofie-dev-search" target="8" />
+      <module name="OSS" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="OSS" options="-parameters" />
       <module name="foodie-dev-api" options="-parameters" />
       <module name="foodie-dev-common" options="-parameters" />
       <module name="foodie-dev-es-resthighlevelclient" options="-parameters" />

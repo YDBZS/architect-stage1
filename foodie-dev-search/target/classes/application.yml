@@ -1,0 +1,18 @@
+server:
+  port: 8345
+spring:
+  data:
+    elasticsearch:
+      cluster-name: my-es-clester           # ES的集群名称
+      cluster-nodes: 192.168.52.171:9300    # ES的节点地址，客户端请求使用http协议的9300端口
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/foodie-shop?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+  redis:
+    database: 0
+    host: 192.168.52.201
+    port: 6379
+    password: 123456
