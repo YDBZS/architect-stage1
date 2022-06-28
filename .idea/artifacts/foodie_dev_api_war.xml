@@ -3,10 +3,8 @@
     <output-path>$PROJECT_DIR$/foodie-dev-api/target</output-path>
     <properties id="maven-jee-properties">
       <options>
-        <exploded>false</exploded>
         <module>foodie-dev-api</module>
         <packaging>war</packaging>
-        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="archive" name="foodie-dev-api-1.0-SNAPSHOT.war">
