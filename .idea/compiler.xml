@@ -20,14 +20,14 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="foodie-dev" target="1.8" />
-      <module name="foodie-dev-api" target="8" />
-      <module name="foodie-dev-common" target="8" />
-      <module name="foodie-dev-es-resthighlevelclient" target="8" />
-      <module name="foodie-dev-mapper" target="8" />
-      <module name="foodie-dev-pojo" target="8" />
-      <module name="foodie-dev-search" target="8" />
-      <module name="foodie-dev-service" target="8" />
-      <module name="foodie-sso" target="8" />
+      <module name="foodie-dev-api" target="1.8" />
+      <module name="foodie-dev-common" target="1.8" />
+      <module name="foodie-dev-es-resthighlevelclient" target="1.8" />
+      <module name="foodie-dev-mapper" target="1.8" />
+      <module name="foodie-dev-pojo" target="1.8" />
+      <module name="foodie-dev-search" target="1.8" />
+      <module name="foodie-dev-service" target="1.8" />
+      <module name="foodie-sso" target="1.8" />
       <module name="foofie-dev-search" target="8" />
       <module name="OSS" target="1.8" />
     </bytecodeTargetLevel>
