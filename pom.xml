@@ -19,6 +19,8 @@
         <module>foodie-sso</module>
         <module>foodie-dev-search</module>
         <module>foodie-dev-es-resthighlevelclient</module>
+        <module>rabbitmq</module>
+        <module>rabbitmq-consumer</module>
     </modules>
 
     <!--
