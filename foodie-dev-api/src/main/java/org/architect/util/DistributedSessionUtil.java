@@ -1,8 +1,8 @@
 package org.architect.util;
 
+import org.architect.constant.Constant;
 import org.architect.pojo.Users;
 import org.architect.pojo.vo.UsersVO;
-import org.architect.constant.Constant;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
 

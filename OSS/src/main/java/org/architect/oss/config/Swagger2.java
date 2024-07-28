@@ -20,7 +20,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2WebMvc;
 @Configuration
 @EnableKnife4j
 @EnableSwagger2WebMvc
-public class Swagger2{
+public class Swagger2 {
 
     @Bean
     public Docket createRestApi() {
